@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Student in Machine Learning & Computational Biology <a target='_blank' rel='noopener noreferrer' href='https://missouri.edu/'>@Mizzou</a>.
 
 profile:
   align: right
