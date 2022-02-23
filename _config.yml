@@ -15,7 +15,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://amorehead.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -69,7 +69,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/259/6116.html # your DBLP profile url
-stackoverflow_id: 7614810 #your stackoverflow id
+stackoverflow_id: #your stackoverflow id
 
 contact_note: >
   Email, LinkedIn, and Twitter are the best ways to get in contact with me.
@@ -83,8 +83,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple space for my blog posts
+blog_name: my-blog  # your blog must have a name for it to show up in the nav bar
+blog_description: a simple space for my blog thoughts
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -109,7 +109,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 9999
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -205,7 +205,7 @@ jekyll-archives:
 scholar:
 
   last_name: Morehead
-  first_name: [Alex, C.]
+  first_name: [Alex]
 
   style: apa
   locale: en

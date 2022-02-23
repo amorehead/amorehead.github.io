@@ -2,23 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Machine Learning & Computational Biology <a target='_blank' rel='noopener noreferrer' href='https://missouri.edu/'>@Mizzou</a>.
+subtitle: Ph.D. Student in Machine Learning & Computational Biology <a target='_blank' rel='noopener noreferrer' href='https://missouri.edu/'>@Mizzou</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <i class="fab fa-wpforms"></i>
+    <a href="assets/pdf/resume.pdf" target="_blank" title="Resume/CV">Resume/CV</a>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<h4 id="about">About</h4>
+Welcome! :wave:<br>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Computer Science Ph.D. student at the <a target='_blank' rel='noopener noreferrer' href='https://missouri.edu/'>University of Missouri</a>. I work as a graduate research assistant in Dr. Jianlin Cheng's <a target='_blank' rel='noopener noreferrer' href='http://calla.rnet.missouri.edu/cheng/'>Bioinformatics & Machine Learning Lab</a>. Prior to my Ph.D., I completed my B.S. in Computer Science at Missouri Western State University. My interests in computer science and machine learning began through many fun experiences building and experimenting with bleeding-edge software early on, and competing in mathematical Olympiads in high school.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<h4 id="about">Research</h4>
+My current research interests include machine learning, deep learning, computational biology, and high-performance computing. In particular, I have developed new 3D graph neural network architectures such as the <a target='_blank' rel='noopener noreferrer' href='https://github.com/BioinfoMachineLearning/DeepInteract'>Geometric Transformer</a> for modeling large biomolecules (e.g., proteins) and curated large open-source molecular datasets (e.g., <a target='_blank' rel='noopener noreferrer' href='https://github.com/BioinfoMachineLearning/DIPS-Plus'>DIPS-Plus</a>).
+
+<h4 id="about">Writing</h4>
+I enjoy sharing thoughts on Machine Learning research and applications on <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/MoreheadAlex'>Twitter</a> and (occasionally) <a target='_blank' rel='noopener noreferrer' href='https://amorehead.github.io/blog/'>my blog</a>.
+
+<hr>
