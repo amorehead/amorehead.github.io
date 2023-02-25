@@ -70,21 +70,11 @@
   year={2022}
 }
 
-@article{10.1093/bioinformatics/btad030,
-    author = {Chen, Chen and Chen, Xiao and Morehead, Alex and Wu, Tianqi and Cheng, Jianlin},
-    title = "{3D-equivariant graph neural networks for protein model quality assessment}",
-    journal = {Bioinformatics},
-    volume = {39},
-    number = {1},
-    year = {2023},
-    month = {01},
-    abstract = "{Quality assessment (QA) of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques for generating highly confident tertiary structures for most proteins, it is important to explore corresponding QA strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods.We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method—AlphaFold2. We train and test the method on both traditional model datasets (e.g. the datasets of the Critical Assessment of Techniques for Protein Structure Prediction) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently. Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method—AlphaFold2. It performs even better than the model QA scores provided by AlphaFold2 itself. The results illustrate that the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. Integrating AlphaFold2 features with other complementary sequence and structural features is important for improving protein model QA.The source code is available at https://github.com/BioinfoMachineLearning/EnQA.Supplementary data are available at Bioinformatics online.}",
-    issn = {1367-4811},
-    doi = {10.1093/bioinformatics/btad030},
-    url = {https://doi.org/10.1093/bioinformatics/btad030},
-    note = {btad030},
-    eprint = {https://academic.oup.com/bioinformatics/article-pdf/39/1/btad030/48942769/btad030.pdf},
-    selected = {true}
+@article{chen3d,
+  title={3D-equivariant graph neural networks for protein model quality assessment},
+  author={Chen, Chen and Chen, Xiao and Morehead, Alex and Wu, Tianqi and Cheng, Jianlin},
+  journal={Bioinformatics},
+  selected={true}
 }
 
 @article{Shoman2022ARD,
@@ -94,48 +84,27 @@
   year={2022}
 }
 
-@ARTICLE{2022arXiv220510390M,
-       author = {{Morehead}, Alex and {Chen}, Xiao and {Wu}, Tianqi and {Liu}, Jian and {Cheng}, Jianlin},
-        title = "{EGR: Equivariant Graph Refinement and Assessment of 3D Protein Complex Structures}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Quantitative Biology - Biomolecules, Quantitative Biology - Quantitative Methods, Statistics - Machine Learning, I.2.1, J.3},
-         year = 2022,
-        month = may,
-          eid = {arXiv:2205.10390},
-        pages = {arXiv:2205.10390},
-archivePrefix = {arXiv},
-       eprint = {2205.10390},
- primaryClass = {cs.LG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220510390M},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{morehead2022egr,
+  title={EGR: Equivariant Graph Refinement and Assessment of 3D Protein Complex Structures},
+  author={Morehead, Alex and Chen, Xiao and Wu, Tianqi and Liu, Jian and Cheng, Jianlin},
+  journal={arXiv preprint arXiv:2205.10390},
+  year={2022}
 }
 
-@ARTICLE{2022arXiv220510627C,
-       author = {{Chen}, Xiao and {Morehead}, Alex and {Liu}, Jian and {Cheng}, Jianlin},
-        title = "{DProQ: A Gated-Graph Transformer for Protein Complex Structure Assessment}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Quantitative Biology - Biomolecules, Quantitative Biology - Quantitative Methods, I.2.1, J.3},
-         year = 2022,
-        month = may,
-          eid = {arXiv:2205.10627},
-        pages = {arXiv:2205.10627},
-archivePrefix = {arXiv},
-       eprint = {2205.10627},
- primaryClass = {cs.LG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220510627C},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{chen2022dproq,
+  title={DProQ: A Gated-Graph Transformer for Protein Complex Structure Assessment},
+  author={Chen, Xiao and Morehead, Alex and Liu, Jian and Cheng, Jianlin},
+  journal={bioRxiv},
+  pages={2022--05},
+  year={2022},
+  publisher={Cold Spring Harbor Laboratory}
 }
 
-@article {Soltanikazemi2022.04.17.488609,
-	author = {Soltanikazemi, Elham and Roy, Raj S. and Quadir, Farhan and Giri, Nabin and Morehead, Alex and Cheng, Jianlin},
-	title = {A deep reinforcement learning approach to reconstructing quaternary structures of protein dimers through self-learning},
-	elocation-id = {2022.04.17.488609},
-	year = {2022},
-	doi = {10.1101/2022.04.17.488609},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Predicted interchain residue-residue contacts can be used to build the quaternary structure of protein complexes from scratch. However, only a small number of methods have been developed to reconstruct protein quaternary structures using predicted interchain contacts. Here, we present an agent-based self-learning method based on deep reinforcement learning (DRLComplex) to build protein complex structures using interchain contacts as distance constraints. We rigorously tested the DRLComplex on two standard datasets of homodimeric and heterodimeric dimers (the CASP-CAPRI homodimer dataset and Std_32 heterodimer dataset) using both true and predicted contacts. Utilizing true contacts as input, the DRLComplex achieved a high average TM-score of 0.9895 and 0.9881 and a low average interface RMSD (I_RMSD) of 0.2197 and 0.92 on the two datasets, respectively. When predicted contacts are used, the method achieves the TM-score of 0.73 and 0.76 for homodimers and heterodimers respectively. The accuracy of reconstructed quaternary structures depends on the accuracy of contact predictions. Compared with other optimization methods of reconstructing quaternary structures from interchain contacts, DRLComplex performs similarly to an advanced gradient descent method and better than a Markov Chain Monte Carlo simulation method and a simulated annealing-based method. The source code of DRLComplex is available at: https://github.com/jianlin-cheng/DRLComplexCompeting Interest StatementThe authors have declared no competing interest.},
-	URL = {https://www.biorxiv.org/content/early/2022/04/18/2022.04.17.488609},
-	eprint = {https://www.biorxiv.org/content/early/2022/04/18/2022.04.17.488609.full.pdf},
-	journal = {bioRxiv}
+@article{soltanikazemi2022drlcomplex,
+  title={DRLComplex: Reconstruction of protein quaternary structures using deep reinforcement learning},
+  author={Soltanikazemi, Elham and Roy, Raj S and Quadir, Farhan and Giri, Nabin and Morehead, Alex and Cheng, Jianlin},
+  journal={arXiv preprint arXiv:2205.13594},
+  year={2022}
 }
+
 }
