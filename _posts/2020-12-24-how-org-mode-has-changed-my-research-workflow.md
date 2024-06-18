@@ -51,6 +51,6 @@ My next focus will be on finding out whether MindMeld can be used to facilitate 
 
 That's all I have to share for now. If you made it to the end of this blog post, I want to thank you for your time and attention.
 
-Much love to you all.
+All the best!
 
 **Alex**
