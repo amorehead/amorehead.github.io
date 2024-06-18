@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Org Mode Changed My Research Workflow
-date:   2020-12-24 16:40:16
+date: 2020-12-24 16:40:16
 description: A high-level overview of my current personal setup with Emacs and Org Mode for research and task management.
 tags: [Task Management, Text Editor, Organization, Workflow]
 categories: setup-posts
 ---
+
 ![](https://amorehead.github.io/assets/img/research_roaming.png)
 
 ## What is Org Mode?
@@ -17,11 +18,13 @@ categories: setup-posts
 [Task management](https://en.wikipedia.org/wiki/Task_management) is necessary for making continuous progress on any project. Many different methodologies aim to encompass all the best principles of task management, and one of the most well-known and successful of these methodologies is called [Getting Things Done](https://gettingthingsdone.com/) (GTD) introduced by David Allen. Its core philosophy is relatively simple: document each task you must accomplish in a given day to free up your mind to exert maximum focus on the task at hand. This process, as you can imagine, requires consistent discipline to execute it effectively.
 
 ## What is the connection between GTD and Org Mode?
+
 Org Mode allows its users to build [custom agendas](https://orgmode.org/manual/Agenda-Views.html) as they see fit, further letting users connect documents, web content, and even emails together using generic links (e.g. Think hyperlinks for any kind of resource). Given this functionality, [others](https://orgmode.org/worg/org-gtd-etc.html) have taken the liberty to create entire GTD-inspired workflows using Org Mode. Once again, the purpose of doing so is to ease the intellectual burden of having to remember each thing you have to accomplish each day.
 
 ![](https://amorehead.github.io/assets/img/gtd_with_org_mode.png)
 
 ## GTD Configuration
+
 After several weeks of research (no pun intended), I discovered an [Org Mode setup](https://blog.jethro.dev/posts/org_mode_workflow_preview/) designed by [Jethro Kuan](https://www.jethro.dev/) that met many of my needs for a productive, organized GTD workflow. Like several others, I opted to house my GTD workflow directories inside my Dropbox directory to enable cloud-based syncing between all my devices (i.e. smartphone, desktop, laptop, etc.).
 
 ![](https://amorehead.github.io/assets/img/dropbox_gtd_org_dir.png)
@@ -37,13 +40,14 @@ In Orgzly, after configuring the app to point to my Dropbox-designated GTD direc
 ![](https://amorehead.github.io/assets/img/orgzly_searches.png)
 
 ## MindMeld Configuration
+
 So by now, we have a robust means of scheduling each task for the day in a platform-agnostic manner. But how did all this affect my research workflow? To answer this, we'll have to turn to **MindMeld**, a collection of thoughts, notes, and writings for my digital exobrain largely inspired by [Braindump](https://github.com/jethrokuan/braindump) (also by Jethro Kuan).
 
 ![](https://amorehead.github.io/assets/img/dropbox_mindmeld_dir.png)
 
 Much of the layout and ideas behind MindMeld has already been well-documented by Jethro in his [blog posts](https://blog.jethro.dev/posts/capturing_inbox/) on pairing GTD and Org Mode. However, MindMeld builds on top of Braindump by adding several new [org-capture](https://orgmode.org/manual/Capture.html) templates and directories. MindMeld also incorporates a running BibTeX bibliography that, with [org-ref](https://github.com/jkitchin/org-ref), can be used to cleanly arrange and index a copious number of BibTeX entries.
 
-I have used MindMeld to write several reports, proposals, and [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)) presentations to-date, and I can say from my initial impressions of the system that it has drastically improved the speed at which I can put together well-formatted technical documents (references and all!). I have also been able to make connections between concepts that I wouldn't have been able to make before thanks to wonderful Emacs add-ons like [org-roam](https://github.com/org-roam/org-roam). As it turns out, the diagram listed at the beginning of this article was generated using org-roam, and it hopefully gives you a taste of what is possible for making new connections between related ideas with Org Mode.
+I have used MindMeld to write several reports, proposals, and [Beamer](<https://en.wikipedia.org/wiki/Beamer_(LaTeX)>) presentations to-date, and I can say from my initial impressions of the system that it has drastically improved the speed at which I can put together well-formatted technical documents (references and all!). I have also been able to make connections between concepts that I wouldn't have been able to make before thanks to wonderful Emacs add-ons like [org-roam](https://github.com/org-roam/org-roam). As it turns out, the diagram listed at the beginning of this article was generated using org-roam, and it hopefully gives you a taste of what is possible for making new connections between related ideas with Org Mode.
 
 I continually update a GitHub repository called [dots](https://github.com/amorehead/dots) that houses my most up-to-date Emacs and Org Mode config files to make it easier for others to reproduce this GTD research setup. I have been primarily using the Emacs extension [Doom Emacs](https://github.com/hlissner/doom-emacs) for most of my desktop/laptop use of Emacs, and I include in [dots](https://github.com/amorehead/dots) a [directory](https://github.com/amorehead/dots/tree/main/doom_emacs/.doom.d) dedicated to Doom Emacs-related configuration.
 
