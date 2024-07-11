@@ -8,7 +8,9 @@ categories: setup-posts
 thumbnail: assets/img/research_roaming.png
 ---
 
-![](https://amorehead.github.io/assets/img/research_roaming.png)
+<div class="l-page">
+  {% include figure.liquid path="assets/img/research_roaming.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 ## What is Org Mode?
 
@@ -22,29 +24,39 @@ thumbnail: assets/img/research_roaming.png
 
 Org Mode allows its users to build [custom agendas](https://orgmode.org/manual/Agenda-Views.html) as they see fit, further letting users connect documents, web content, and even emails together using generic links (e.g. Think hyperlinks for any kind of resource). Given this functionality, [others](https://orgmode.org/worg/org-gtd-etc.html) have taken the liberty to create entire GTD-inspired workflows using Org Mode. Once again, the purpose of doing so is to ease the intellectual burden of having to remember each thing you have to accomplish each day.
 
-![](https://amorehead.github.io/assets/img/gtd_with_org_mode.png)
+<div class="l-body">
+  {% include figure.liquid path="assets/img/gtd_with_org_mode.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 ## GTD Configuration
 
 After several weeks of research (no pun intended), I discovered an [Org Mode setup](https://blog.jethro.dev/posts/org_mode_workflow_preview/) designed by [Jethro Kuan](https://www.jethro.dev/) that met many of my needs for a productive, organized GTD workflow. Like several others, I opted to house my GTD workflow directories inside my Dropbox directory to enable cloud-based syncing between all my devices (i.e. smartphone, desktop, laptop, etc.).
 
-![](https://amorehead.github.io/assets/img/dropbox_gtd_org_dir.png)
+<div class="l-body">
+  {% include figure.liquid path="assets/img/dropbox_gtd_org_dir.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 Out of the box, simply changing the GTD directory file paths to point to my newly-created Dropbox GTD directories worked great for getting my laptop and desktop quickly configured for syncing my daily agenda with Org Mode. However, I had to use a slightly different approach to sync my Org Mode agenda to my Android smartphone.
 
-![](https://amorehead.github.io/assets/img/dropbox_gtd_calendars_dir.png)
+<div class="l-body">
+  {% include figure.liquid path="assets/img/dropbox_gtd_calendars_dir.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 For this use case, I chose to download and install [Orgzly](http://www.orgzly.com/), an (at the time of my writing this) Android-only mobile app that can correctly parse and understand Org Mode syntax in .org files. What appears to be an IOS-equivalent to Orgzly, [beorg](https://apps.apple.com/us/app/beorg-to-do-list-agenda/id1238649962), may also allow you to conveniently manage your cloud-synced Org Mode agendas. I cannot confirm this, nonetheless, as I do not currently own any iPhones with which to test the notion.
 
 In Orgzly, after configuring the app to point to my Dropbox-designated GTD directories (i.e. (1) dropbox:/Documents/Org/GTD/Org/ and (2) dropbox:/Documents/Org/GTD/Org/Calendars), I also chose to add a few custom [searches](http://www.orgzly.com/help#search) that display tasks that are scheduled today (i.e. "Scheduled") and tasks that are due today (i.e. "Due"). I tend to use the "Scheduled" search more than other searches as it quickly gives me an overview of what I have lined up for the day without distracting me with tasks to be completed in the future (GTD, remember?).
 
-![](https://amorehead.github.io/assets/img/orgzly_searches.png)
+<div class="l-body">
+  {% include figure.liquid path="assets/img/orgzly_searches.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 ## MindMeld Configuration
 
 So by now, we have a robust means of scheduling each task for the day in a platform-agnostic manner. But how did all this affect my research workflow? To answer this, we'll have to turn to **MindMeld**, a collection of thoughts, notes, and writings for my digital exobrain largely inspired by [Braindump](https://github.com/jethrokuan/braindump) (also by Jethro Kuan).
 
-![](https://amorehead.github.io/assets/img/dropbox_mindmeld_dir.png)
+<div class="l-body">
+  {% include figure.liquid path="assets/img/dropbox_mindmeld_dir.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 Much of the layout and ideas behind MindMeld has already been well-documented by Jethro in his [blog posts](https://blog.jethro.dev/posts/capturing_inbox/) on pairing GTD and Org Mode. However, MindMeld builds on top of Braindump by adding several new [org-capture](https://orgmode.org/manual/Capture.html) templates and directories. MindMeld also incorporates a running BibTeX bibliography that, with [org-ref](https://github.com/jkitchin/org-ref), can be used to cleanly arrange and index a copious number of BibTeX entries.
 
