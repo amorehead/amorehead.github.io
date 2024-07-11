@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One ICML workshop paper selected for a spotlight presentation :sparkles:
+Two ICML workshop papers selected for spotlight presentations :sparkles:
