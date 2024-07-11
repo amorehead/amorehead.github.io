@@ -3,8 +3,8 @@ layout: distill
 title: Org Mode Changed My Research Workflow
 date: 2020-12-24 16:40:16
 description: A high-level overview of my current personal setup with Emacs and Org Mode for research and task management.
-tags: [Task Management, Text Editor, Organization, Workflow]
-categories: setup-posts
+tags: [Task Management, Organization, Workflow, Text Editor]
+categories: productivity-posts
 thumbnail: assets/img/research_roaming.png
 ---
 
