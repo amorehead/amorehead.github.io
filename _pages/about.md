@@ -26,6 +26,6 @@ I am a Computer Science Ph.D. candidate at the <a target='_blank' rel='noopener 
 My current research interests include machine learning, deep learning, computational biology, and generative modeling. In particular, I have developed new geometric graph neural network architectures such as <a target='_blank' rel='noopener noreferrer' href='https://github.com/BioinfoMachineLearning/GCPNet'>GCPNet</a> and the <a target='_blank' rel='noopener noreferrer' href='https://github.com/BioinfoMachineLearning/DeepInteract'>Geometric Transformer</a> for modeling biomolecules of various sizes (e.g., proteins), introduced <a target='_blank' rel='noopener noreferrer' href='https://github.com/BioinfoMachineLearning/Bio-Diffusion'>GCDM</a> for diffusion generative modeling of 3D molecules, and assembled <a target='_blank' rel='noopener noreferrer' href='https://github.com/BioinfoMachineLearning/PoseBench'>PoseBench</a>,  the first deep learning benchmark for practical protein-ligand docking.
 
 <h4 id="about">Writing</h4>
-I enjoy sharing thoughts on research and applications (occasionally) on <a target='_blank' rel='noopener noreferrer' href='https://amorehead.github.io/blog/'>my blog</a>.
+I enjoy sharing thoughts on literature, research, and applications on <a target='_blank' rel='noopener noreferrer' href='https://amorehead.github.io/blog/'>my blog</a>.
 
 <hr>
