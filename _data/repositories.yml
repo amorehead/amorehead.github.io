@@ -6,6 +6,6 @@ github_repos:
   - BioinfoMachineLearning/bio-diffusion
   - BioinfoMachineLearning/DeepInteract
   - a-r-j/ProteinWorkshop
+  - lucidrains/alphafold3-pytorch
   - Profluent-Internships/MMDiff
-  - BioinfoMachineLearning/PoseBench
   - amorehead/awesome-molecular-generation
