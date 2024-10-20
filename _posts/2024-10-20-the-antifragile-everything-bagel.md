@@ -5,6 +5,7 @@ date: 2024-10-20
 description: An annotated reading of the books I read in August & September 2024.
 tags: [Future-Proofing, Growth, Fantasy]
 categories: annotated-readings
+giscus_comments: true
 thumbnail: assets/img/blog_post_images/10_2024/the-antifragile-everything-bagel.jpeg
 ---
 

@@ -5,6 +5,7 @@ date: 2020-12-24
 description: A high-level overview of my current personal setup with Emacs and Org Mode for research and task management.
 tags: [Task Management, Organization, Workflow, Text Editor]
 categories: productivity-posts
+giscus_comments: true
 thumbnail: assets/img/blog_post_images/12_2020/research_roaming.png
 ---
 
