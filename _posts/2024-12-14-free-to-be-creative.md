@@ -15,6 +15,13 @@ thumbnail: assets/img/blog_post_images/12_2024/free-to-be-creative.png
 
 This month's books center on the idea of learning, the creative process, and how to design one's life around fulfillment. You know, simple topics. ¯\_(ツ)_/¯
 
+## Books Read in November 2024
+1. Ultralearning
+2. Free to Focus
+3. Creativity
+4. The Almanack of Naval Ravikant
+5. Hyperion
+
 ## Learning, fast and slow
 
 Do you ever find yourself wishing you could understand an interesting topic more deeply but feel intimidated by [imposter's syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)? Don't be! We are all novices in many facets of our world, no matter how generalized (or specialized) our skillsets may be. [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/) by Scott H. Young dives into the fascinating world of ultralearners, individuals who commit to mastering a new topic or speciality by dedicating a portion of their weekly schedule to acquiring the necessary skills to succeed in this new domain. Though the many case studies Young shares, by the end of the book, you may feel empowered to try ultralearning a new skillset you've always been curious about. Who knows, the process of ultralearning may teach you a thing or two more about yourself!

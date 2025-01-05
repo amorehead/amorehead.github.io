@@ -13,6 +13,11 @@ thumbnail: assets/img/blog_post_images/06_2024/super-random-alchemy.jpeg
   {% include figure.liquid path="assets/img/blog_post_images/06_2024/super-random-alchemy.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
+## Books Read in June 2024
+1. Fooled by Randomness
+2. Supernormal
+3. Mistborn
+
 ## Is it stochasticity, or is it just me?
 
 Nassim Taleb's well-known book, [*Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets*](https://en.wikipedia.org/wiki/Fooled_by_Randomness), instills in its readers a sense of humility and perspective on how randomness should inform our decision making, letting it guide our choices of investments to make (or not make), careers to development, and (perhaps even) role models to aspire to be like. This book left me with the question, "How do we separate the signal (skill) from the noise (luck) in the modern era of work"? The only answer I can think of is for us to become more precise with how we define and measure productivity and valuable outputs, an idea introduced in Cal Newport's recent book [*​Slow Productivity: The Lost Art of Accomplishment without Burnout​*](https://calnewport.com/my-new-book-slow-productivity/) which is on my reading list for the near future.

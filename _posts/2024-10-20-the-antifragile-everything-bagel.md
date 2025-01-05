@@ -15,6 +15,14 @@ thumbnail: assets/img/blog_post_images/10_2024/the-antifragile-everything-bagel.
 
 For this month's annotated readings, I've decided to combine the months of August and September into a single (everything bagel) post. You be the judge if that was a good call or not. ¯\_(ツ)_/¯
 
+## Books Read in August & September 2024
+1. Antifragile
+2. The Hero of Ages
+3. Trauma
+4. The 7 Habits of Highly Effective People
+5. Man's Search for Meaning
+6. Making Sense
+
 ## To predict or not predict, that is the question
 
 Taleb's more recent book entry [*Antifragile*](https://en.wikipedia.org/wiki/Antifragile_(book)) discusses at length some of the lessons we can learn, among many other time periods, from the [Great Recession of 2008](https://en.wikipedia.org/wiki/Great_Recession#:~:text=The%20Great%20Recession%20was%20a,to%20country%20(see%20map).) and how hubris and unfounded intellectual postulating led us to base many of the world's socioeconomic components on shaky statistical grounds. *Antifragile* encourages its readers to rethink how (and whether) we try to measure risk and reward in modern (increasingly unpredictable) times.

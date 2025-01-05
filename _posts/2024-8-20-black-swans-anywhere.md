@@ -13,6 +13,11 @@ thumbnail: assets/img/blog_post_images/08_2024/black-swans-anywhere.jpeg
   {% include figure.liquid path="assets/img/blog_post_images/08_2024/black-swans-anywhere.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
+## Books Read in July 2024
+1. The Well of Ascension
+2. The Black Swan
+3. No Bad Parts
+
 ## The gates come tumbling down
 
 A strong kick-off for the month of July, Brandon Sanderson's second entry in the Mistborn trilogy, [*The Well of Ascension*](https://www.brandonsanderson.com/the-mistborn-saga-the-original-trilogy/), simply had to make my immediate reading list after finishing his classic Mistborn entry novel. This second novel spends a great deal of time uniquely exploring what happens after the heroes have won and have a new society to (re)build. The narrative structure no longer centers solely on Vin's experience and instead expands to capture the psychologies and philosophies of the surrounding cast of characters, even in the midst of dire straits. Overall, this entry showcases Sanderson's ability to repeatedly enthrall a readership with expansive world building and character analysis.
