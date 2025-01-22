@@ -28,4 +28,7 @@ My current research interests include machine learning, deep learning, computati
 <h4 id="about">Writing</h4>
 I enjoy sharing thoughts on literature, research, and applications on <a target='_blank' rel='noopener noreferrer' href='https://amorehead.github.io/blog/'>my blog</a>.
 
+<h4 id="about">Education</h4>
+Looking to get started with <a target='_blank' rel='noopener noreferrer' href='https://github.com/amorehead/MLForEveryone'>machine learning</a>?
+
 <hr>
