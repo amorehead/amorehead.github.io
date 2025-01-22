@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented PoseBench & FlowDock as top-ranked DL methods at CASP16!
+Presented MULTICOM_ligand & FlowDock as top-ranked DL methods at CASP16 :dna:
