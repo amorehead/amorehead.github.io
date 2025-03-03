@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by ICLR :sparkles:
+One spotlight accepted by ICLR :sparkles:
