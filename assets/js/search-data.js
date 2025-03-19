@@ -37,7 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-blog",
+        },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
@@ -143,11 +150,151 @@ ninja.data = [{
           window.location.href = "/blog/2020/org-changed-research/";
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
+    },{id: "books-fooled-by-randomness-the-hidden-role-of-chance-in-life-and-in-the-markets",
+          title: 'Fooled by Randomness: The Hidden Role of Chance in Life and in the...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/fooled_by_randomness/";
+            },},{id: "books-mistborn",
+          title: 'Mistborn',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn/";
+            },},{id: "books-supernormal",
+          title: 'Supernormal',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/supernormal/";
+            },},{id: "books-no-bad-parts",
+          title: 'No Bad Parts',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/no_bad_parts/";
+            },},{id: "books-the-black-swan",
+          title: 'The Black Swan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_black_swan/";
+            },},{id: "books-the-well-of-ascension",
+          title: 'The Well of Ascension',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_well_of_ascension/";
+            },},{id: "books-antifragile",
+          title: 'Antifragile',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/antifragile/";
+            },},{id: "books-the-hero-of-ages",
+          title: 'The Hero of Ages',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_hero_of_ages/";
+            },},{id: "books-trauma",
+          title: 'Trauma',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/trauma/";
+            },},{id: "books-making-sense",
+          title: 'Making Sense',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/making_sense/";
+            },},{id: "books-man-39-s-search-for-meaning",
+          title: 'Man&amp;#39;s Search for Meaning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mans_search_for_meaning/";
+            },},{id: "books-the-7-habits-of-highly-effective-people",
+          title: 'The 7 Habits of Highly Effective People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_seven_habits_of_highly_effective_people/";
+            },},{id: "books-acceptance-and-commitment-therapy",
+          title: 'Acceptance and Commitment Therapy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/acceptance_and_commitment_therapy/";
+            },},{id: "books-so-good-they-can-39-t-ignore-you",
+          title: 'So Good They Can&amp;#39;t Ignore You',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/so_good_they_cant_ignore_you/";
+            },},{id: "books-the-intelligence-trap",
+          title: 'The Intelligence Trap',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_intelligence_trap/";
+            },},{id: "books-what-do-you-care-what-other-people-think",
+          title: 'What Do You Care What Other People Think?',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what_do_you_care_what_other_people_think/";
+            },},{id: "books-creativity",
+          title: 'Creativity',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/creativity/";
+            },},{id: "books-free-to-focus",
+          title: 'Free to Focus',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/free_to_focus/";
+            },},{id: "books-hyperion",
+          title: 'Hyperion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hyperion/";
+            },},{id: "books-the-almanack-of-naval-ravikant",
+          title: 'The Almanack of Naval Ravikant',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_almanack_of_naval_ravikant/";
+            },},{id: "books-ultralearning",
+          title: 'Ultralearning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ultralearning/";
+            },},{id: "books-nexus",
+          title: 'Nexus',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nexus/";
+            },},{id: "books-scarcity-brain",
+          title: 'Scarcity Brain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/scarcity_brain/";
+            },},{id: "books-the-comfort-crisis",
+          title: 'The Comfort Crisis',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_comfort_crisis/";
+            },},{id: "books-the-fall-of-hyperion",
+          title: 'The Fall of Hyperion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_fall_of_hyperion/";
+            },},{id: "books-the-song-of-the-cell",
+          title: 'The Song of the Cell',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_song_of_the_cell/";
+            },},{id: "books-principles",
+          title: 'Principles',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/principles/";
+            },},{id: "books-the-coming-wave",
+          title: 'The Coming Wave',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_coming_wave/";
+            },},{id: "books-the-sacred-enneagram",
+          title: 'The Sacred Enneagram',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_sacred_enneagram/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
