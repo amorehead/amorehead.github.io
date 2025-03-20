@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-slow-carb-and-sugar-rush-science",
+            },{id: "post-filler",
+      
+        title: "Filler",
+      
+      description: "An annotated reading of the books I read in February 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/filler/";
+        
+      },
+    },{id: "post-slow-carb-and-sugar-rush-science",
       
         title: "Slow Carb and Sugar Rush Science",
       
@@ -280,6 +291,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_song_of_the_cell/";
+            },},{id: "books-company-of-one",
+          title: 'Company of One',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/company_of_one/";
+            },},{id: "books-ikigai-and-kaizen",
+          title: 'Ikigai and Kaizen',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ikigai_and_kaizen/";
             },},{id: "books-principles",
           title: 'Principles',
           description: "",
