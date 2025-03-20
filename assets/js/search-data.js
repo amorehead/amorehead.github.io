@@ -51,18 +51,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-filler",
-      
-        title: "Filler",
-      
-      description: "An annotated reading of the books I read in February 2025.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/filler/";
-        
-      },
-    },{id: "post-slow-carb-and-sugar-rush-science",
+            },{id: "post-slow-carb-and-sugar-rush-science",
       
         title: "Slow Carb and Sugar Rush Science",
       
