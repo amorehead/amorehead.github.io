@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-slow-carb-and-sugar-rush-science",
+            },{id: "post-wellbeing-and-technopoly",
+      
+        title: "Wellbeing and technopoly",
+      
+      description: "An annotated reading of the books I read in February 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/wellbeing-and-technopoly/";
+        
+      },
+    },{id: "post-slow-carb-and-sugar-rush-science",
       
         title: "Slow Carb and Sugar Rush Science",
       
@@ -305,6 +316,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_sacred_enneagram/";
+            },},{id: "books-all-about-love",
+          title: 'All About Love',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/all_about_love/";
+            },},{id: "books-amusing-ourselves-to-death",
+          title: 'Amusing Ourselves to Death',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/amusing_ourselves_to_death/";
+            },},{id: "books-attached",
+          title: 'Attached',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/attached/";
+            },},{id: "books-technopoly",
+          title: 'Technopoly',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/technopoly/";
+            },},{id: "books-wellbeing",
+          title: 'Wellbeing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wellbeing/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
