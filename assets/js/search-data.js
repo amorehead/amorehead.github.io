@@ -365,8 +365,8 @@ ninja.data = [{
           section: "News",},{id: "news-one-spotlight-accepted-by-iclr-sparkles",
           title: 'One spotlight accepted by ICLR :sparkles:',
           description: "",
-          section: "News",},{id: "news-one-conditional-acceptance-by-ismb-dna",
-          title: 'One conditional acceptance by ISMB :dna:',
+          section: "News",},{id: "news-one-acceptance-by-ismb-dna",
+          title: 'One acceptance by ISMB :dna:',
           description: "",
           section: "News",},{
         id: 'social-dblp',
