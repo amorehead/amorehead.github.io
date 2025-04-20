@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-wellbeing-and-technopoly",
+            },{id: "post-classics-to-spare",
+      
+        title: "Classics to spare",
+      
+      description: "An annotated reading of the books I read in March 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/classics-to-spare/";
+        
+      },
+    },{id: "post-wellbeing-and-technopoly",
       
         title: "Wellbeing and technopoly",
       
@@ -341,6 +352,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/wellbeing/";
+            },},{id: "books-the-four-agreements-a-practical-guide-to-personal-freedom",
+          title: 'The Four Agreements: A Practical Guide to Personal Freedom',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_four_agreements/";
+            },},{id: "books-the-hero-39-s-journey-joseph-campbell-on-his-life-and-work",
+          title: 'The Hero&amp;#39;s Journey: Joseph Campbell on His Life and Work',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_heros_journey/";
+            },},{id: "books-the-hidden-life-of-trees-what-they-feel-how-they-communicate",
+          title: 'The Hidden Life of Trees: What They Feel, How They Communicate',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_hidden_life_of_trees/";
+            },},{id: "books-the-stranger",
+          title: 'The Stranger',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_stranger/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
