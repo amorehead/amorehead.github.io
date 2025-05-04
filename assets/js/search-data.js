@@ -55,7 +55,7 @@ ninja.data = [{
       
         title: "Classics to spare",
       
-      description: "An annotated reading of the books I read in March 2025.",
+      description: "An annotated reading of the books I finished in March 2025.",
       section: "Posts",
       handler: () => {
         
@@ -66,7 +66,7 @@ ninja.data = [{
       
         title: "Wellbeing and technopoly",
       
-      description: "An annotated reading of the books I read in February 2025.",
+      description: "An annotated reading of the books I finished in February 2025.",
       section: "Posts",
       handler: () => {
         
@@ -88,7 +88,7 @@ ninja.data = [{
       
         title: "The principles of tomorrow",
       
-      description: "An annotated reading of the books I read in January 2025.",
+      description: "An annotated reading of the books I finished in January 2025.",
       section: "Posts",
       handler: () => {
         
@@ -99,7 +99,7 @@ ninja.data = [{
       
         title: "Starting off the new year",
       
-      description: "An annotated reading of the books I read in December 2024.",
+      description: "An annotated reading of the books I finished in December 2024.",
       section: "Posts",
       handler: () => {
         
@@ -110,7 +110,7 @@ ninja.data = [{
       
         title: "Free to be creative",
       
-      description: "An annotated reading of the books I read in November 2024.",
+      description: "An annotated reading of the books I finished in November 2024.",
       section: "Posts",
       handler: () => {
         
@@ -121,7 +121,7 @@ ninja.data = [{
       
         title: "Curious characteristics",
       
-      description: "An annotated reading of the books I read in October 2024.",
+      description: "An annotated reading of the books I finished in October 2024.",
       section: "Posts",
       handler: () => {
         
@@ -132,7 +132,7 @@ ninja.data = [{
       
         title: "What doesn&#39;t kill an everything bagel only makes it stronger",
       
-      description: "An annotated reading of the books I read in August &amp; September 2024.",
+      description: "An annotated reading of the books I finished in August &amp; September 2024.",
       section: "Posts",
       handler: () => {
         
@@ -143,7 +143,7 @@ ninja.data = [{
       
         title: "Is that a (well-dressed) black swan over there?",
       
-      description: "An annotated reading of the books I read in July 2024.",
+      description: "An annotated reading of the books I finished in July 2024.",
       section: "Posts",
       handler: () => {
         
@@ -154,7 +154,7 @@ ninja.data = [{
       
         title: "Where does the (super)randomness begin and end? And do alchemists have new competition?...",
       
-      description: "An annotated reading of the books I read in June 2024.",
+      description: "An annotated reading of the books I finished in June 2024.",
       section: "Posts",
       handler: () => {
         
