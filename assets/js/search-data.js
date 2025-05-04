@@ -450,6 +450,9 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-accepted-by-ismb-dna",
           title: 'One paper accepted by ISMB :dna:',
           description: "",
+          section: "News",},{id: "news-successfully-defended-my-phd-dissertation-with-slides-available-here-bowtie",
+          title: 'Successfully defended my PhD dissertation, with slides available here! :bowtie:',
+          description: "",
           section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
