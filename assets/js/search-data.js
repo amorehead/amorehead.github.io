@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-classics-to-spare",
+            },{id: "post-digging-in",
+      
+        title: "Digging in",
+      
+      description: "An annotated reading of the books I finished in April 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/digging-in/";
+        
+      },
+    },{id: "post-classics-to-spare",
       
         title: "Classics to spare",
       
@@ -347,11 +358,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/technopoly/";
+            },},{id: "books-the-anxious-generation",
+          title: 'The Anxious Generation',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_anxious_generation/";
             },},{id: "books-wellbeing",
           title: 'Wellbeing',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/wellbeing/";
+            },},{id: "books-abundance",
+          title: 'Abundance',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/abundance/";
+            },},{id: "books-the-coddling-of-the-american-mind",
+          title: 'The Coddling of the American Mind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_coddling_of_the_american_mind/";
             },},{id: "books-the-four-agreements-a-practical-guide-to-personal-freedom",
           title: 'The Four Agreements: A Practical Guide to Personal Freedom',
           description: "",
@@ -372,6 +398,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_stranger/";
+            },},{id: "books-bhagavad-gita",
+          title: 'Bhagavad Gita',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/bhagavad_gita/";
+            },},{id: "books-blink",
+          title: 'Blink',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/blink/";
+            },},{id: "books-talking-to-strangers",
+          title: 'Talking to Strangers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/talking_to_strangers/";
+            },},{id: "books-the-old-man-and-the-sea",
+          title: 'The Old Man and the Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_old_man_and_the_sea/";
+            },},{id: "books-the-worm-at-the-core",
+          title: 'The Worm at the Core',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_worm_at_the_core/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
