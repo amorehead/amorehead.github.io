@@ -13,7 +13,7 @@ thumbnail: assets/img/blog_post_images/06_2025/distilling-creativity.png
   {% include figure.liquid path="assets/img/blog_post_images/06_2025/distilling-creativity.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
-What was in (the book)store for May 2025? Mostly books on creativity, leadership, and adversity.
+What was in (the book)store for May 2025? Mostly books on creativity, leadership, and adversity. But what I think is worth highlighting is just how obscenely good ChatGPT's new image generation model has proven to be when generating this month's blog summary image. I mean, it's eerily meta (no pun intended). 🤔
 
 ## Books Read in May 2025
 1. Save the Cat!
@@ -47,7 +47,7 @@ Jared Diamond captured my attention for the better part of May 2025 with his ill
 
 ## Identifying the Source
 
-Simply put, please read Rick Rubin's book [The Creative Act](https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/). Trust me. You won't regret it, especially if you enjoy the fruits of creativity (in your own life or in the lives of others past or present). :)
+Simply put, please read Rick Rubin's book [The Creative Act](https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/). Trust me. You won't regret it, especially if you enjoy the fruits of creativity (in your own life or in the lives of others past or present). 😊
 
 <div class="l-body">
   {% include figure.liquid path="assets/img/blog_post_images/06_2025/the-creative-act.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
