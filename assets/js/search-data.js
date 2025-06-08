@@ -453,6 +453,9 @@ ninja.data = [{
           section: "News",},{id: "news-successfully-defended-my-phd-dissertation-with-a-pdf-and-slides-available-book",
           title: 'Successfully defended my PhD dissertation, with a PDF and slides available! :book:',
           description: "",
+          section: "News",},{id: "news-honored-to-start-researching-at-berkeley-lab-as-a-hopper-postdoctoral-fellow-sparkles",
+          title: 'Honored to start researching at Berkeley Lab as a Hopper Postdoctoral Fellow! :sparkles:...',
+          description: "",
           section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
