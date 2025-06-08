@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-digging-in",
+            },{id: "post-distilling-creativity",
+      
+        title: "Distilling creativity",
+      
+      description: "An annotated reading of the books I finished in May 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/distilling-creativity/";
+        
+      },
+    },{id: "post-digging-in",
       
         title: "Digging in",
       
