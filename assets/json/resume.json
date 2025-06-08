@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alex Morehead",
-    "label": "Ph.D. Candidate",
+    "label": "Hopper Postdoctoral Fellow",
     "image": "",
     "email": "alex.morehead@gmail.com",
     "url": "https://amorehead.github.io/",
@@ -21,12 +21,20 @@
   },
   "work": [
     {
+      "name": "NERSC, Lawrence Berkeley National Laboratory",
+      "position": "Hopper Postdoctoral Fellow",
+      "url": "https://cs.lbl.gov/",
+      "startDate": "2025-06-01",
+      "endDate": "2027-06-01",
+      "summary": "Research and develop deep generative models for science."
+    },
+    {
       "name": "Bioinformatics & Machine Learning Lab, University of Missouri-Columbia",
       "position": "Graduate Research Assistant",
       "url": "https://calla.rnet.missouri.edu/cheng/cheng_research.html",
       "startDate": "2020-08-01",
-      "endDate": "2025-07-01",
-      "summary": "Research geometric deep learning and generative modeling methods for bioinformatics, to date yielding 20+ academic works.",
+      "endDate": "2025-06-01",
+      "summary": "Researched geometric deep learning and generative modeling methods for bioinformatics, yielding 20+ academic works.",
       "highlights": ["Geometric Transformers", "GCPNet", "GCDM", "FlowDock", "PoseBench", "MULTICOM_ligand"]
     }
   ],
@@ -50,7 +58,7 @@
       "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2020-08-01",
-      "endDate": "2025-07-01",
+      "endDate": "2025-06-01",
       "score": "4.0 / 4.0",
       "courses": ["Machine Learning", "Design & Analysis of Algorithms", "Computational Systems Biology"]
     },
@@ -61,7 +69,7 @@
         "area": "Computer Science",
         "studyType": "MS",
         "startDate": "2020-08-01",
-        "endDate": "2024-07-01",
+        "endDate": "2024-06-01",
         "score": "4.0 / 4.0",
         "courses": ["Machine Learning", "Design & Analysis of Algorithms", "Computational Systems Biology"]
       },
@@ -78,6 +86,12 @@
       }
   ],
   "awards": [
+    {
+        "title": "Admiral Grace Hopper Fellowship in Computing Sciences",
+        "date": "2025-06-01",
+        "awarder": "Lawrence Berkeley National Laboratory",
+        "summary": "Awarded a competitive postdoctoral fellowship for research in computing sciences."
+    },
     {
         "title": "Outstanding EECS PhD Student Award",
         "date": "2025-05-01",
