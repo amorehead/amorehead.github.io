@@ -368,22 +368,6 @@
   abbr =         {ICML AI4Sci},
 }
 
-@inproceedings{anand2024rna,
-  title =        {RNA-FrameFlow for de novo 3D RNA Backbone Design},
-  author =       {Anand*, Rishabh and Joshi*, Chaitanya K and Morehead, Alex and
-                  Jamasb, Arian R and Harris, Charles and Matthis, Simon V and
-                  Didi, Kieran and Hooi, Bryan, and Li{\`o}, Pietro},
-  booktitle =    {ICML AI4Science \& SPIGM Workshops},
-  year =         2024,
-  selected =     true,
-  note =         {Conditional flow matching for geometric RNA structure design, selected as a SPIGM (AI4Science) oral (spotlight) presentation},
-  google_scholar_id={qUcmZB5y_30C},
-  html =          {https://arxiv.org/abs/2406.13839},
-  abstract =     {We introduce RNA-FrameFlow, the first generative model for 3D RNA backbone design. We build upon SE(3) flow matching for protein backbone generation and establish protocols for data preparation and evaluation to address unique challenges posed by RNA modeling. We formulate RNA structures as a set of rigid-body frames and associated loss functions which account for larger, more conformationally flexible RNA backbones (13 atoms per nucleotide) vs. proteins (4 atoms per residue). Toward tackling the lack of diversity in 3D RNA datasets, we explore training with structural clustering and cropping augmentations. Additionally, we define a suite of evaluation metrics to measure whether the generated RNA structures are globally self-consistent (via inverse folding followed by forward folding) and locally recover RNA-specific structural descriptors. The most performant version of RNA-FrameFlow generates locally realistic RNA backbones of 40-150 nucleotides, over 40% of which pass our validity criteria as measured by a self-consistency TM-score >= 0.45, at which two RNAs have the same global fold. Open-source code: https://github.com/rish-16/rna-backbone-design},
-  preview =      {RNA-FrameFlow.png},
-  abbr =         {ICML AI4Sci & SPIGM},
-}
-
 % 2025 papers:
 @inproceedings{joshi2025grnade,
   title={g{RNA}de: Geometric Deep Learning for 3D {RNA} inverse design},
@@ -428,4 +412,20 @@
   abstract={Predicting the structure of ligands bound to proteins is a foundational problem in modern biotechnology and drug discovery, yet little is known about how to combine the predictions of protein-ligand structure (poses) produced by the latest deep learning methods to identify the best poses and how to accurately estimate the binding affinity between a protein target and a list of ligand candidates. Further, a blind benchmarking and assessment of protein-ligand structure and binding affinity prediction is necessary to ensure it generalizes well to new settings. Towards this end, we introduce MULTICOM_ligand, a deep learning-based protein-ligand structure and binding affinity prediction ensemble featuring structural consensus ranking for unsupervised pose ranking and a new deep generative flow matching model for joint structure and binding affinity prediction. Notably, MULTICOM_ligand ranked among the top-5 ligand prediction methods in both protein-ligand structure prediction and binding affinity prediction in the 16th Critical Assessment of Techniques for Structure Prediction (CASP16), demonstrating its efficacy and utility for real-world drug discovery efforts. The source code for MULTICOM_ligand is freely available on GitHub.},
   preview =      {MULTICOM_ligand.png},
   abbr =         {Proteins},
+}
+
+@article{anand2025rna,
+  title =        {RNA-FrameFlow: Flow Matching for de novo 3D RNA Backbone Design},
+  author =       {Anand*, Rishabh and Joshi*, Chaitanya K and Morehead, Alex and
+                  Jamasb, Arian R and Harris, Charles and Matthis, Simon V and
+                  Didi, Kieran and Hooi, Bryan, and Li{\`o}, Pietro},
+  journal =    {Transactions on Machine Learning Research},
+  year =         2025,
+  selected =     true,
+  note =         {Conditional flow matching for geometric RNA structure design, selected as an ICML 2024 SPIGM (AI4Science) oral (spotlight) presentation},
+  google_scholar_id={qUcmZB5y_30C},
+  html =          {https://openreview.net/forum?id=wOc1Yx5s09},
+  abstract =     {We introduce RNA-FrameFlow, the first generative model for 3D RNA backbone design. We build upon SE(3) flow matching for protein backbone generation and establish protocols for data preparation and evaluation to address unique challenges posed by RNA modeling. We formulate RNA structures as a set of rigid-body frames and associated loss functions which account for larger, more conformationally flexible RNA backbones (13 atoms per nucleotide) vs. proteins (4 atoms per residue). Toward tackling the lack of diversity in 3D RNA datasets, we explore training with structural clustering and cropping augmentations. Additionally, we define a suite of evaluation metrics to measure whether the generated RNA structures are globally self-consistent (via inverse folding followed by forward folding) and locally recover RNA-specific structural descriptors. The most performant version of RNA-FrameFlow generates locally realistic RNA backbones of 40-150 nucleotides, over 40% of which pass our validity criteria as measured by a self-consistency TM-score >= 0.45, at which two RNAs have the same global fold. Open-source code: https://github.com/rish-16/rna-backbone-design},
+  preview =      {RNA-FrameFlow.png},
+  abbr =         {TMLR},
 }
