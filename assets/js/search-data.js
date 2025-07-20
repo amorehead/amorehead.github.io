@@ -467,6 +467,9 @@ ninja.data = [{
           section: "News",},{id: "news-honored-to-start-researching-at-berkeley-lab-as-a-hopper-postdoctoral-fellow-sparkles",
           title: 'Honored to start researching at Berkeley Lab as a Hopper Postdoctoral Fellow! :sparkles:...',
           description: "",
+          section: "News",},{id: "news-new-review-paper-on-flow-matching-models-and-their-applications-in-bioinformatics-sparkles",
+          title: 'New review paper on flow matching models and their applications in bioinformatics :sparkles:...',
+          description: "",
           section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
