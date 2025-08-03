@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-distilling-creativity",
+            },{id: "post-what-do-we-value",
+      
+        title: "What do we value?",
+      
+      description: "An annotated reading of the books I finished in June &amp; July 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/what-do-we-value/";
+        
+      },
+    },{id: "post-distilling-creativity",
       
         title: "Distilling creativity",
       
@@ -434,6 +445,56 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_worm_at_the_core/";
+            },},{id: "books-save-the-cat",
+          title: 'Save the Cat',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/save_the_cat/";
+            },},{id: "books-the-21-irrefutable-laws-of-leadership",
+          title: 'The 21 Irrefutable Laws of Leadership',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_21_irrefutable_laws_of_leadership/";
+            },},{id: "books-the-creative-act",
+          title: 'The Creative Act',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_creative_act/";
+            },},{id: "books-upheaval",
+          title: 'Upheaval',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/upheaval/";
+            },},{id: "books-donut-economics",
+          title: 'Donut Economics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/donut_economics/";
+            },},{id: "books-invisible-women",
+          title: 'Invisible Women',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/invisible_women/";
+            },},{id: "books-jesus-and-john-wayne",
+          title: 'Jesus and John Wayne',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/jesus_and_john_wayne/";
+            },},{id: "books-the-great-gatsby",
+          title: 'The Great Gatsby',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_great_gatsby/";
+            },},{id: "books-the-sirens-39-call",
+          title: 'The Sirens&amp;#39; Call',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_sirens_call/";
+            },},{id: "books-the-way-of-kings",
+          title: 'The Way of Kings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_way_of_kings/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
