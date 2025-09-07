@@ -49,7 +49,7 @@ Neil Postman's [Technopoly](https://www.amazon.com/Technopoly-Surrender-Technolo
 
 ## Love with fewer limits
 
-Bell Hooks' [All About Love](https://www.amazon.com/All-About-Love-New-Visions/dp/0060959479) is a demanding yet profound exploration of love in its many forms. In this work, Hooks challenges the conventional notions of love, urging us to redefine it as a practice of mutual respect, care, and understanding directed toward one's growth.
+bell hooks' [All About Love](https://www.amazon.com/All-About-Love-New-Visions/dp/0060959479) is a demanding yet profound exploration of love in its many forms. In this work, Hooks challenges the conventional notions of love, urging us to redefine it as a practice of mutual respect, care, and understanding directed toward one's growth.
 
 <div class="l-body">
   {% include figure.liquid path="assets/img/blog_post_images/03_2025/all-about-love.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}

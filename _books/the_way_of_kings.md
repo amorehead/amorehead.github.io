@@ -6,7 +6,7 @@ cover: assets/img/blog_post_images/08_2025/the-way-of-kings.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: Fantasy Character Mechanics
-tags: june-2024
+tags: june-2025
 buy_link:
 started: 2025-06-01
 finished: 2025-06-28
