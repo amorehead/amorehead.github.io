@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-what-do-we-value",
+            },{id: "post-stories-of-time-experience-and-consumption",
+      
+        title: "Stories of time, experience, and consumption",
+      
+      description: "An annotated reading of the books I finished in August 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/stories-of-time-experience-and-consumption/";
+        
+      },
+    },{id: "post-what-do-we-value",
       
         title: "What do we value?",
       
@@ -495,6 +506,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_way_of_kings/";
+            },},{id: "books-born-a-crime",
+          title: 'Born a Crime',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/born_a_crime/";
+            },},{id: "books-feminism-is-for-everybody",
+          title: 'Feminism is for Everybody',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/feminism_is_for_everybody/";
+            },},{id: "books-making-time",
+          title: 'Making Time',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/making_time/";
+            },},{id: "books-the-secret-life-of-groceries",
+          title: 'The Secret Life of Groceries',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_secret_life_of_groceries/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
