@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-stories-of-time-experience-and-consumption",
+            },{id: "post-growing-with-people-and-plants",
+      
+        title: "Growing with people and plants",
+      
+      description: "An annotated reading of the books I finished in September 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/growing-with-people-and-plants/";
+        
+      },
+    },{id: "post-stories-of-time-experience-and-consumption",
       
         title: "Stories of time, experience, and consumption",
       
@@ -526,6 +537,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_secret_life_of_groceries/";
+            },},{id: "books-good-to-great",
+          title: 'Good to Great',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/good_to_great/";
+            },},{id: "books-how-to-change-your-mind",
+          title: 'How to Change Your Mind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how_to_change_your_mind/";
+            },},{id: "books-nonviolent-communication",
+          title: 'Nonviolent Communication',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nonviolent_communication/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
