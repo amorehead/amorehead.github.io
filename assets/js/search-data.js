@@ -588,6 +588,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-review-paper-on-flow-matching-models-and-their-applications-in-bioinformatics-sparkles",
           title: 'New review paper on flow matching models and their applications in bioinformatics :sparkles:...',
           description: "",
+          section: "News",},{id: "news-one-paper-accepted-by-nature-machine-intelligence-sparkles",
+          title: 'One paper accepted by Nature Machine Intelligence :sparkles:',
+          description: "",
           section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
