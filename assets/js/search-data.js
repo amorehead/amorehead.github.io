@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-growing-with-people-and-plants",
+            },{id: "post-the-intersection-of-tools-introspection-and-discovery",
+      
+        title: "The intersection of tools, introspection, and discovery",
+      
+      description: "An annotated reading of the books I finished in October 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/the-intersection-of-tools-introspection-and-discovery/";
+        
+      },
+    },{id: "post-growing-with-people-and-plants",
       
         title: "Growing with people and plants",
       
@@ -552,6 +563,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/nonviolent_communication/";
+            },},{id: "books-i-39-m-glad-my-mom-died",
+          title: 'I&amp;#39;m Glad My Mom Died',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/im_glad_my_mom_died/";
+            },},{id: "books-leonardo-da-vinci",
+          title: 'Leonardo da Vinci',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/leonardo_da_vinci/";
+            },},{id: "books-play-it-away",
+          title: 'Play It Away',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/play_it_away/";
+            },},{id: "books-tools-of-titans",
+          title: 'Tools of Titans',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/tools_of_titans/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
