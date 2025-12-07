@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-the-intersection-of-tools-introspection-and-discovery",
+            },{id: "post-on-metacognition",
+      
+        title: "On metacognition",
+      
+      description: "An annotated reading of the books I finished in November 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/on-metacognition/";
+        
+      },
+    },{id: "post-the-intersection-of-tools-introspection-and-discovery",
       
         title: "The intersection of tools, introspection, and discovery",
       
@@ -583,6 +594,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/tools_of_titans/";
+            },},{id: "books-brave-new-world",
+          title: 'Brave New World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/brave_new_world/";
+            },},{id: "books-ego-is-the-enemy",
+          title: 'Ego Is the Enemy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ego_is_the_enemy/";
+            },},{id: "books-the-eden-express",
+          title: 'The Eden Express',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_eden_express/";
+            },},{id: "books-walden",
+          title: 'Walden',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/walden/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
