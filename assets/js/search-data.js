@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-on-metacognition",
+            },{id: "post-living-values",
+      
+        title: "Living values",
+      
+      description: "An annotated reading of the books I finished in December 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/living-values/";
+        
+      },
+    },{id: "post-on-metacognition",
       
         title: "On metacognition",
       
@@ -614,6 +625,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/walden/";
+            },},{id: "books-moral-ambition",
+          title: 'Moral Ambition',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/moral_ambition/";
+            },},{id: "books-the-greatest-sentence-ever-written",
+          title: 'The Greatest Sentence Ever Written',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_greatest_sentence_ever_written/";
+            },},{id: "books-what-we-value",
+          title: 'What We Value',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what_we_value/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
