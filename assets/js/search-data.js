@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-living-values",
+            },{id: "post-conversing-with-self-and-others",
+      
+        title: "Conversing with self and others",
+      
+      description: "An annotated reading of the books I finished in January 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/conversing-with-self-and-others/";
+        
+      },
+    },{id: "post-living-values",
       
         title: "Living values",
       
@@ -640,6 +651,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/what_we_value/";
+            },},{id: "books-awareness",
+          title: 'Awareness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/awareness/";
+            },},{id: "books-ender-39-s-game",
+          title: 'Ender&amp;#39;s Game',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/enders_game/";
+            },},{id: "books-mindset",
+          title: 'Mindset',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mindset/";
+            },},{id: "books-moonwalking-with-einstein",
+          title: 'Moonwalking with Einstein',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/moonwalking_with_einstein/";
+            },},{id: "books-supercommunicators",
+          title: 'Supercommunicators',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/supercommunicators/";
+            },},{id: "books-the-age-of-surveillance-capitalism",
+          title: 'The Age of Surveillance Capitalism',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_age_of_surveillance_capitalism/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
