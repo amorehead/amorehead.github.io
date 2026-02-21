@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-conversing-with-self-and-others",
+            },{id: "post-ai4science-the-why-and-the-how",
+      
+        title: 'AI4Science: The why and the how <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Launching a series of thought pieces on the role of AI in scientific discovery",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/ai4science-the-why-and-the-how", "_blank");
+        
+      },
+    },{id: "post-coming-soon",
+      
+        title: 'Coming soon <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "This is AI4Science.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/coming-soon", "_blank");
+        
+      },
+    },{id: "post-conversing-with-self-and-others",
       
         title: "Conversing with self and others",
       
@@ -716,6 +738,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-new-review-paper-on-flow-matching-models-and-their-applications-in-bioinformatics-sparkles",
           title: 'New review paper on flow matching models and their applications in bioinformatics :sparkles:...',
+          description: "",
+          section: "News",},{id: "news-one-paper-accepted-by-nature-machine-intelligence-sparkles",
+          title: 'One paper accepted by Nature Machine Intelligence :sparkles:',
           description: "",
           section: "News",},{id: "news-one-paper-accepted-by-nature-machine-intelligence-sparkles",
           title: 'One paper accepted by Nature Machine Intelligence :sparkles:',
