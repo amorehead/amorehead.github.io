@@ -23,22 +23,12 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      # 1. Attempt the standard fetch
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      
-      # 2. Execute curl via Ruby system call
-      # -L follows redirects
-      # -s prevents progress bars from cluttering logs
-      # -o saves to the specific file
-      output_file = './substack.rss'
-      success = system("curl", "-L", "-s", src['rss_url'], "-o", output_file)
+      rss_file = './substack.rss'
 
-      # 4. If curl succeeded, read the file; otherwise return
-      if success && File.exist?(output_file)
-        xml = File.read(output_file)
+      if File.exist?(rss_file)
+        xml = File.read(rss_file)
       else
-        puts "Error: Failed to download fallback RSS for #{src['rss_url']}"
+        puts "Error: Failed to find RSS file #{rss_file} of #{src['rss_url']}. Please generate it locally using the command `curl #{src['rss_url']} > #{rss_file}` and try again."
         return
       end
 
