@@ -35,7 +35,14 @@
       "startDate": "2020-08-01",
       "endDate": "2025-06-01",
       "summary": "Researched geometric deep learning and generative modeling methods for bioinformatics, yielding 20+ academic works.",
-      "highlights": ["Geometric Transformers", "GCPNet", "GCDM", "FlowDock", "PoseBench", "MULTICOM_ligand"]
+      "highlights": [
+        "Geometric Transformers",
+        "GCPNet",
+        "GCDM",
+        "FlowDock",
+        "PoseBench",
+        "MULTICOM_ligand"
+      ]
     }
   ],
   "volunteer": [
@@ -47,7 +54,9 @@
       "startDate": "2022-05-01",
       "endDate": "2023-08-01",
       "summary": "Crafted and taught special education computer science curriculum for neurodivergent youth.",
-      "highlights": ["Implemented reinforcement learning algorithms for Minecraft in a collaborative virtual classroom environment"]
+      "highlights": [
+        "Implemented reinforcement learning algorithms for Minecraft in a collaborative virtual classroom environment"
+      ]
     }
   ],
   "education": [
@@ -60,49 +69,61 @@
       "startDate": "2020-08-01",
       "endDate": "2025-06-01",
       "score": "4.0 / 4.0",
-      "courses": ["Machine Learning", "Design & Analysis of Algorithms", "Computational Systems Biology"]
+      "courses": [
+        "Machine Learning",
+        "Design & Analysis of Algorithms",
+        "Computational Systems Biology"
+      ]
     },
     {
-        "institution": "University of Missouri-Columbia",
-        "location": "Columbia, Missouri",
-        "url": "https://missouri.edu/",
-        "area": "Computer Science",
-        "studyType": "MS",
-        "startDate": "2020-08-01",
-        "endDate": "2024-06-01",
-        "score": "4.0 / 4.0",
-        "courses": ["Machine Learning", "Design & Analysis of Algorithms", "Computational Systems Biology"]
-      },
-      {
-        "institution": "Missouri Western State University",
-        "location": "Saint Joseph, Missouri",
-        "url": "https://missouri.edu/",
-        "area": "Computer Science",
-        "studyType": "BS",
-        "startDate": "2016-08-01",
-        "endDate": "2020-06-01",
-        "score": "4.0 / 4.0",
-        "courses": ["Data Structures", "Operating Systems", "Linear Algebra"]
-      }
+      "institution": "University of Missouri-Columbia",
+      "location": "Columbia, Missouri",
+      "url": "https://missouri.edu/",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "startDate": "2020-08-01",
+      "endDate": "2024-06-01",
+      "score": "4.0 / 4.0",
+      "courses": [
+        "Machine Learning",
+        "Design & Analysis of Algorithms",
+        "Computational Systems Biology"
+      ]
+    },
+    {
+      "institution": "Missouri Western State University",
+      "location": "Saint Joseph, Missouri",
+      "url": "https://missouri.edu/",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "2016-08-01",
+      "endDate": "2020-06-01",
+      "score": "4.0 / 4.0",
+      "courses": [
+        "Data Structures",
+        "Operating Systems",
+        "Linear Algebra"
+      ]
+    }
   ],
   "awards": [
     {
-        "title": "Admiral Grace Hopper Fellowship in Computing Sciences",
-        "date": "2025-06-01",
-        "awarder": "Lawrence Berkeley National Laboratory",
-        "summary": "Awarded a competitive postdoctoral fellowship for research in computing sciences."
+      "title": "Admiral Grace Hopper Fellowship in Computing Sciences",
+      "date": "2025-06-01",
+      "awarder": "Lawrence Berkeley National Laboratory",
+      "summary": "Awarded a competitive postdoctoral fellowship for research in computing sciences."
     },
     {
-        "title": "Outstanding EECS PhD Student Award",
-        "date": "2025-05-01",
-        "awarder": "University of Missouri-Columbia",
-        "summary": "Ranked as a top EECS PhD student in the spring of 2025."
+      "title": "Outstanding EECS PhD Student Award",
+      "date": "2025-05-01",
+      "awarder": "University of Missouri-Columbia",
+      "summary": "Ranked as a top EECS PhD student in the spring of 2025."
     },
     {
-        "title": "Outstanding Computer Science PhD Student Award",
-        "date": "2025-03-01",
-        "awarder": "University of Missouri-Columbia",
-        "summary": "Ranked as a top computer science PhD student in the spring of 2025."
+      "title": "Outstanding Computer Science PhD Student Award",
+      "date": "2025-03-01",
+      "awarder": "University of Missouri-Columbia",
+      "summary": "Ranked as a top computer science PhD student in the spring of 2025."
     },
     {
       "title": "Dean’s Engineering Excellence Fellowship",
@@ -111,10 +132,10 @@
       "summary": "Earned a competitive graduate fellowship for ﬁrst-year PhD students."
     },
     {
-        "title": "O'Neill Graduate Fellowship",
-        "date": "2020-08-01",
-        "awarder": "University of Missouri-Columbia",
-        "summary": "Won a competitive graduate fellowship for ﬁrst-year PhD students."
+      "title": "O'Neill Graduate Fellowship",
+      "date": "2020-08-01",
+      "awarder": "University of Missouri-Columbia",
+      "summary": "Won a competitive graduate fellowship for ﬁrst-year PhD students."
     }
   ],
   "publications": [
@@ -126,39 +147,39 @@
       "summary": "Computational methods for predicting the interface contacts between proteins come highly sought after for drug discovery as they can significantly advance the accuracy of alternative approaches, such as protein-protein docking, protein function analysis tools, and other computational methods for protein bioinformatics. In this work, we present the Geometric Transformer, a novel geometry-evolving graph transformer for rotation and translation-invariant protein interface contact prediction, packaged within DeepInteract, an end-to-end prediction pipeline. DeepInteract predicts partner-specific protein interface contacts (i.e., inter-protein residue-residue contacts) given the 3D tertiary structures of two proteins as input. In rigorous benchmarks, DeepInteract, on challenging protein complex targets from the 13th and 14th CASP-CAPRI experiments as well as Docking Benchmark 5, achieves 14% and 1.1% top L/5 precision (L: length of a protein unit in a complex), respectively. In doing so, DeepInteract, with the Geometric Transformer as its graph-based backbone, outperforms existing methods for interface contact prediction in addition to other graph-based neural network backbones compatible with DeepInteract, thereby validating the effectiveness of the Geometric Transformer for learning rich relational-geometric features for downstream tasks on 3D protein structures."
     },
     {
-        "name": "Geometry-complete perceptron networks for 3d molecular graphs",
-        "publisher": "Bioinformatics",
-        "releaseDate": "2024-02-01",
-        "url": "https://academic.oup.com/bioinformatics/article/40/2/btae087/7610880",
-        "summary": "The field of geometric deep learning has recently had a profound impact on several scientific domains such as protein structure prediction and design, leading to methodological advancements within and outside of the realm of traditional machine learning. Within this spirit, in this work, we introduce GCPNet, a new chirality-aware SE(3)-equivariant graph neural network designed for representation learning of 3D biomolecular graphs. We show that GCPNet, unlike previous representation learning methods for 3D biomolecules, is widely applicable to a variety of invariant or equivariant node-level, edge-level, and graph-level tasks on biomolecular structures while being able to (1) learn important chiral properties of 3D molecules and (2) detect external force fields. Across four distinct molecular-geometric tasks, we demonstrate that GCPNet’s predictions (1) for protein–ligand binding affinity achieve a statistically significant correlation of 0.608, more than 5%, greater than current state-of-the-art methods; (2) for protein structure ranking achieve statistically significant target-local and dataset-global correlations of 0.616 and 0.871, respectively; (3) for Newtownian many-body systems modeling achieve a task-averaged mean squared error less than 0.01, more than 15% better than current methods; and (4) for molecular chirality recognition achieve a state-of-the-art prediction accuracy of 98.7%, better than any other machine learning method to date. The source code, data, and instructions to train new models or reproduce our results are freely available at https://github.com/BioinfoMachineLearning/GCPNet."
+      "name": "Geometry-complete perceptron networks for 3d molecular graphs",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2024-02-01",
+      "url": "https://academic.oup.com/bioinformatics/article/40/2/btae087/7610880",
+      "summary": "The field of geometric deep learning has recently had a profound impact on several scientific domains such as protein structure prediction and design, leading to methodological advancements within and outside of the realm of traditional machine learning. Within this spirit, in this work, we introduce GCPNet, a new chirality-aware SE(3)-equivariant graph neural network designed for representation learning of 3D biomolecular graphs. We show that GCPNet, unlike previous representation learning methods for 3D biomolecules, is widely applicable to a variety of invariant or equivariant node-level, edge-level, and graph-level tasks on biomolecular structures while being able to (1) learn important chiral properties of 3D molecules and (2) detect external force fields. Across four distinct molecular-geometric tasks, we demonstrate that GCPNet's predictions (1) for protein-ligand binding affinity achieve a statistically significant correlation of 0.608, more than 5%, greater than current state-of-the-art methods; (2) for protein structure ranking achieve statistically significant target-local and dataset-global correlations of 0.616 and 0.871, respectively; (3) for Newtownian many-body systems modeling achieve a task-averaged mean squared error less than 0.01, more than 15% better than current methods; and (4) for molecular chirality recognition achieve a state-of-the-art prediction accuracy of 98.7%, better than any other machine learning method to date. The source code, data, and instructions to train new models or reproduce our results are freely available at https://github.com/BioinfoMachineLearning/GCPNet."
     },
     {
-        "name": "Geometry-complete diffusion for 3D molecule generation and optimization",
-        "publisher": "Communications Chemistry",
-        "releaseDate": "2024-07-01",
-        "url": "https://www.nature.com/articles/s42004-024-01233-z",
-        "summary": "Generative deep learning methods have recently been proposed for generating 3D molecules using equivariant graph neural networks (GNNs) within a denoising diffusion framework. However, such methods are unable to learn important geometric properties of 3D molecules, as they adopt molecule-agnostic and non-geometric GNNs as their 3D graph denoising networks, which notably hinders their ability to generate valid large 3D molecules. In this work, we address these gaps by introducing the Geometry-Complete Diffusion Model (GCDM) for 3D molecule generation, which outperforms existing 3D molecular diffusion models by significant margins across conditional and unconditional settings for the QM9 dataset and the larger GEOM-Drugs dataset, respectively. Importantly, we demonstrate that GCDM’s generative denoising process enables the model to generate a significant proportion of valid and energetically-stable large molecules at the scale of GEOM-Drugs, whereas previous methods fail to do so with the features they learn. Additionally, we show that extensions of GCDM can not only effectively design 3D molecules for specific protein pockets but can be repurposed to consistently optimize the geometry and chemical composition of existing 3D molecules for molecular stability and property specificity, demonstrating new versatility of molecular diffusion models. Code and data are freely available at https://github.com/BioinfoMachineLearning/bio-diffusion."
+      "name": "Geometry-complete diffusion for 3D molecule generation and optimization",
+      "publisher": "Communications Chemistry",
+      "releaseDate": "2024-07-01",
+      "url": "https://www.nature.com/articles/s42004-024-01233-z",
+      "summary": "Generative deep learning methods have recently been proposed for generating 3D molecules using equivariant graph neural networks (GNNs) within a denoising diffusion framework. However, such methods are unable to learn important geometric properties of 3D molecules, as they adopt molecule-agnostic and non-geometric GNNs as their 3D graph denoising networks, which notably hinders their ability to generate valid large 3D molecules. In this work, we address these gaps by introducing the Geometry-Complete Diffusion Model (GCDM) for 3D molecule generation, which outperforms existing 3D molecular diffusion models by significant margins across conditional and unconditional settings for the QM9 dataset and the larger GEOM-Drugs dataset, respectively. Importantly, we demonstrate that GCDM's generative denoising process enables the model to generate a significant proportion of valid and energetically-stable large molecules at the scale of GEOM-Drugs, whereas previous methods fail to do so with the features they learn. Additionally, we show that extensions of GCDM can not only effectively design 3D molecules for specific protein pockets but can be repurposed to consistently optimize the geometry and chemical composition of existing 3D molecules for molecular stability and property specificity, demonstrating new versatility of molecular diffusion models. Code and data are freely available at https://github.com/BioinfoMachineLearning/bio-diffusion."
     },
     {
-        "name": "FlowDock: Geometric flow matching for generative protein-ligand docking and affinity prediction",
-        "publisher": "Intelligent Systems for Molecular Biology",
-        "releaseDate": "2025-04-01",
-        "url": "https://arxiv.org/abs/2412.10966",
-        "summary": "Powerful generative AI models of protein-ligand structure have recently been proposed, but few of these methods support both flexible protein-ligand docking and affinity estimation. Of those that do, none can directly model multiple binding ligands concurrently or have been rigorously benchmarked on pharmacologically relevant drug targets, hindering their widespread adoption in drug discovery efforts. In this work, we propose FlowDock, the first deep geometric generative model based on conditional flow matching that learns to directly map unbound (apo) structures to their bound (holo) counterparts for an arbitrary number of binding ligands. Furthermore, FlowDock provides predicted structural confidence scores and binding affinity values with each of its generated protein-ligand complex structures, enabling fast virtual screening of new (multi-ligand) drug targets. For the well-known PoseBusters Benchmark dataset, FlowDock outperforms single-sequence AlphaFold 3 with a 51% blind docking success rate using unbound (apo) protein input structures and without any information derived from multiple sequence alignments, and for the challenging new DockGen-E dataset, FlowDock outperforms single-sequence AlphaFold 3 and matches single-sequence Chai-1 for binding pocket generalization. Additionally, in the ligand category of the 16th community-wide Critical Assessment of Techniques for Structure Prediction (CASP16), FlowDock ranked among the top-5 methods for pharmacological binding affinity estimation across 140 protein-ligand complexes, demonstrating the efficacy of its learned representations in virtual screening. Source code, data, and pre-trained models are available at https://github.com/BioinfoMachineLearning/FlowDock."
+      "name": "FlowDock: Geometric flow matching for generative protein-ligand docking and affinity prediction",
+      "publisher": "Intelligent Systems for Molecular Biology",
+      "releaseDate": "2025-04-01",
+      "url": "https://arxiv.org/abs/2412.10966",
+      "summary": "Powerful generative AI models of protein-ligand structure have recently been proposed, but few of these methods support both flexible protein-ligand docking and affinity estimation. Of those that do, none can directly model multiple binding ligands concurrently or have been rigorously benchmarked on pharmacologically relevant drug targets, hindering their widespread adoption in drug discovery efforts. In this work, we propose FlowDock, the first deep geometric generative model based on conditional flow matching that learns to directly map unbound (apo) structures to their bound (holo) counterparts for an arbitrary number of binding ligands. Furthermore, FlowDock provides predicted structural confidence scores and binding affinity values with each of its generated protein-ligand complex structures, enabling fast virtual screening of new (multi-ligand) drug targets. For the well-known PoseBusters Benchmark dataset, FlowDock outperforms single-sequence AlphaFold 3 with a 51% blind docking success rate using unbound (apo) protein input structures and without any information derived from multiple sequence alignments, and for the challenging new DockGen-E dataset, FlowDock outperforms single-sequence AlphaFold 3 and matches single-sequence Chai-1 for binding pocket generalization. Additionally, in the ligand category of the 16th community-wide Critical Assessment of Techniques for Structure Prediction (CASP16), FlowDock ranked among the top-5 methods for pharmacological binding affinity estimation across 140 protein-ligand complexes, demonstrating the efficacy of its learned representations in virtual screening. Source code, data, and pre-trained models are available at https://github.com/BioinfoMachineLearning/FlowDock."
     },
     {
-        "name": "Deep learning for protein-ligand docking: are we there yet?",
-        "publisher": "ICML 2024 AI4Science Spotlight",
-        "releaseDate": "2024-05-01",
-        "url": "https://arxiv.org/abs/2405.14108",
-        "summary": "The effects of ligand binding on protein structures and their in vivo functions carry numerous implications for modern biomedical research and biotechnology development efforts such as drug discovery. Although several deep learning (DL) methods and benchmarks designed for protein-ligand docking have recently been introduced, to date no prior works have systematically studied the behavior of the latest docking and structure prediction methods within the broadly applicable context of (1) using predicted (apo) protein structures for docking (e.g., for applicability to new proteins); (2) binding multiple (cofactor) ligands concurrently to a given target protein (e.g., for enzyme design); and (3) having no prior knowledge of binding pockets (e.g., for generalization to unknown pockets). To enable a deeper understanding of docking methods' real-world utility, we introduce PoseBench, the first comprehensive benchmark for broadly applicable protein-ligand docking. PoseBench enables researchers to rigorously and systematically evaluate DL methods for apo-to-holo protein-ligand docking and protein-ligand structure prediction using both primary ligand and multi-ligand benchmark datasets, the latter of which we introduce for the first time to the DL community. Empirically, using PoseBench, we find that (1) DL co-folding methods generally outperform comparable conventional and DL docking baselines, yet popular methods such as AlphaFold 3 are still challenged by prediction targets with novel protein sequences; (2) certain DL co-folding methods are highly sensitive to their input multiple sequence alignments, while others are not; and (3) DL methods struggle to strike a balance between structural accuracy and chemical specificity when predicting novel or multi-ligand protein targets. Code, data, tutorials, and benchmark results are available at https://github.com/BioinfoMachineLearning/PoseBench."
+      "name": "Assessing the potential of deep learning for protein-ligand docking",
+      "publisher": "Nature Machine Intelligence",
+      "releaseDate": "2025-12-31",
+      "url": "https://www.nature.com/articles/s42256-025-01160-1",
+      "summary": "The effects of ligand binding on protein structures and their in vivo functions carry numerous implications for modern biomedical research and biotechnology development efforts such as drug discovery. Although several deep learning (DL) methods and benchmarks designed for protein-ligand docking have recently been introduced, so far no previous works have systematically studied the behaviour of the latest docking and structure prediction methods within the broadly applicable context of: (1) using predicted (apo) protein structures for docking (for example, for applicability to new proteins); (2) binding multiple (cofactor) ligands concurrently to a given target protein (for example, for enzyme design); and (3) having no previous knowledge of binding pockets (for example, for generalization to unknown pockets). To enable a deeper understanding of the real-world utility of docking methods, we introduce PoseBench, a comprehensive benchmark for broadly applicable protein-ligand docking. PoseBench enables researchers to rigorously and systematically evaluate DL methods for apo-to-holo protein-ligand docking and protein-ligand structure prediction using both primary ligand and multiligand benchmark datasets, the latter of which we introduce to the DL community. Empirically, using PoseBench, we find that: (1) DL cofolding methods generally outperform comparable conventional and DL docking baseline algorithms, but popular methods such as AlphaFold 3 are still challenged by prediction targets with new protein-ligand binding poses; (2) certain DL cofolding methods are highly sensitive to their input multiple sequence alignments, whereas others are not; and (3) DL methods struggle to strike a balance between structural accuracy and chemical specificity when predicting new or multiligand protein targets. Code, data, tutorials, and benchmark results are available at https://github.com/BioinfoMachineLearning/PoseBench."
     },
     {
-        "name": "Protein-ligand structure and affinity prediction in CASP16 using a geometric deep learning ensemble and flow matching",
-        "publisher": "Proteins: Structure, Function, and Bioinformatics",
-        "releaseDate": "2025-05-01",
-        "url": "https://onlinelibrary.wiley.com/doi/10.1002/prot.26827",
-        "summary": "Predicting the structure of ligands bound to proteins is a foundational problem in modern biotechnology and drug discovery, yet little is known about how to combine the predictions of protein-ligand structure (poses) produced by the latest deep learning methods to identify the best poses and how to accurately estimate the binding affinity between a protein target and a list of ligand candidates. Further, a blind benchmarking and assessment of protein-ligand structure and binding affinity prediction is necessary to ensure it generalizes well to new settings. Towards this end, we introduce MULTICOM_ligand, a deep learning-based protein-ligand structure and binding affinity prediction ensemble featuring structural consensus ranking for unsupervised pose ranking and a new deep generative flow matching model for joint structure and binding affinity prediction. Notably, MULTICOM_ligand ranked among the top-5 ligand prediction methods in both protein-ligand structure prediction and binding affinity prediction in the 16th Critical Assessment of Techniques for Structure Prediction (CASP16), demonstrating its efficacy and utility for real-world drug discovery efforts. The source code for MULTICOM_ligand is freely available at https://github.com/BioinfoMachineLearning/MULTICOM_ligand."
+      "name": "Protein-ligand structure and affinity prediction in CASP16 using a geometric deep learning ensemble and flow matching",
+      "publisher": "Proteins: Structure, Function, and Bioinformatics",
+      "releaseDate": "2025-05-01",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/prot.26827",
+      "summary": "Predicting the structure of ligands bound to proteins is a foundational problem in modern biotechnology and drug discovery, yet little is known about how to combine the predictions of protein-ligand structure (poses) produced by the latest deep learning methods to identify the best poses and how to accurately estimate the binding affinity between a protein target and a list of ligand candidates. Further, a blind benchmarking and assessment of protein-ligand structure and binding affinity prediction is necessary to ensure it generalizes well to new settings. Towards this end, we introduce MULTICOM_ligand, a deep learning-based protein-ligand structure and binding affinity prediction ensemble featuring structural consensus ranking for unsupervised pose ranking and a new deep generative flow matching model for joint structure and binding affinity prediction. Notably, MULTICOM_ligand ranked among the top-5 ligand prediction methods in both protein-ligand structure prediction and binding affinity prediction in the 16th Critical Assessment of Techniques for Structure Prediction (CASP16), demonstrating its efficacy and utility for real-world drug discovery efforts. The source code for MULTICOM_ligand is freely available at https://github.com/BioinfoMachineLearning/MULTICOM_ligand."
     }
   ],
   "skills": [
@@ -174,15 +195,15 @@
       ]
     },
     {
-        "name": "PyTorch",
-        "level": "Master",
-        "icon": "fa-solid fa-hashtag",
-        "keywords": [
-            "Geometric Deep Learning",
-            "Generative Modeling",
-            "Computer Vision",
-            "Natural Language Processing"
-        ]
+      "name": "PyTorch",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Geometric Deep Learning",
+        "Generative Modeling",
+        "Computer Vision",
+        "Natural Language Processing"
+      ]
     }
   ],
   "languages": [
@@ -216,9 +237,9 @@
       "reference": "xudong@missouri.edu"
     },
     {
-        "name": "Dr. Xiaoqin Zou",
-        "icon": "fa-solid fa-thumbtack",
-        "reference": "zoux@missouri.edu"
+      "name": "Dr. Xiaoqin Zou",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "zoux@missouri.edu"
     }
   ]
 }
