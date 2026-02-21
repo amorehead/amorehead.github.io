@@ -23,8 +23,29 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
+      # 1. Attempt the standard fetch
       xml = HTTParty.get(src['rss_url']).body
       return if xml.nil?
+
+      # 2. Check if we got HTML (blocked/error) instead of XML
+      if xml.include?('<!DOCTYPE html>')
+        output_file = './substack.rss'
+        
+        # 3. Execute curl via Ruby system call
+        # -L follows redirects
+        # -s prevents progress bars from cluttering logs
+        # -o saves to the specific file
+        success = system("curl", "-L", "-s", src['rss_url'], "-o", output_file)
+
+        # 4. If curl succeeded, read the file; otherwise return
+        if success && File.exist?(output_file)
+          xml = File.read(output_file)
+        else
+          puts "Error: Failed to download fallback RSS for #{src['rss_url']}"
+          return
+        end
+      end
+
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
     end
