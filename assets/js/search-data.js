@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-ai4science-the-why-and-the-how",
+            },{id: "post-light-in-the-dark-stillness-in-the-waves",
+      
+        title: "Light in the dark, stillness in the waves",
+      
+      description: "An annotated reading of the books I finished in February 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/light-in-the-dark-stillness-in-the-waves/";
+        
+      },
+    },{id: "post-ai4science-the-why-and-the-how",
       
         title: 'AI4Science: The why and the how <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -703,6 +714,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_age_of_surveillance_capitalism/";
+            },},{id: "books-slaughterhouse-five",
+          title: 'Slaughterhouse-Five',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/slaughterhouse_five/";
+            },},{id: "books-strong-ground",
+          title: 'Strong Ground',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/strong_ground/";
+            },},{id: "books-the-new-empire-of-ai",
+          title: 'The New Empire of AI',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_new_empire_of_ai/";
+            },},{id: "books-the-power-of-now",
+          title: 'The Power of Now',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_power_of_now/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
