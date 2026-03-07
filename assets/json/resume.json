@@ -227,19 +227,24 @@
   ],
   "references": [
     {
-      "name": "Dr. Jianlin Cheng",
+      "name": "Dr. Michael Mahoney",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "mmahoney@stat.berkeley.edu"
+    },
+    {
+      "name": "Dr. Wahid Bhimji",
       "icon": "fa-solid fa-laptop",
+      "reference": "WBhimji@lbl.gov"
+    },
+    {
+      "name": "Dr. Jianlin Cheng",
+      "icon": "fa-solid fa-thumbtack",
       "reference": "chengji@missouri.edu"
     },
     {
       "name": "Dr. Dong Xu",
-      "icon": "fa-solid fa-thumbtack",
+      "icon": "fa-solid fa-laptop",
       "reference": "xudong@missouri.edu"
-    },
-    {
-      "name": "Dr. Xiaoqin Zou",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "zoux@missouri.edu"
     }
   ]
 }
