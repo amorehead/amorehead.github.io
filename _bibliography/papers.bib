@@ -470,20 +470,6 @@
   abbr =         {NeurIPS MLSB},
 }
 
-@article{la2025megafold,
-  title =        {MegaFold: System-Level Optimizations for Accelerating Protein Structure Prediction Models},
-  author =       {La, Hoa and Gupta, Ahan and Morehead, Alex and Cheng, Jianlin and Zhang, Minjia},
-  journal =      {arXiv},
-  year =         2025,
-  note =         {Accelerating biomolecular structure prediction with system-level optimizations},
-  selected =     false,
-  google_scholar_id={R3hNpaxXUhUC},
-  html =         {https://arxiv.org/abs/2506.20686},
-  abstract =     {Protein structure prediction models such as AlphaFold3 (AF3) push the frontier of biomolecular modeling by incorporating science-informed architectural changes to the transformer architecture. However, these advances come at a steep system cost, introducing: compute- and memory-intensive operators, 2D attention mechanisms, and retrieval-augmented data pipelines, which collectively hinder the scalability of AF3 training. In this work, we present MegaFold, a cross-platform system to accelerate AF3 training. MegaFold tackles key bottlenecks through ahead-of-time caching to eliminate GPU idle time from the retrieval-augmented data pipeline, Triton-based kernels for memory-efficient EvoAttention on heterogeneous devices, and deep fusion for common and critical small operators in AF3. Evaluation on both NVIDIA H200 and AMD MI250 GPUs shows that MegaFold reduces peak memory usage of AF3 training by up to 1.23 and improves per-iteration training time by up-to 1.73 and 1.62 respectively. More importantly, MegaFold enables training on 1.35 longer sequence lengths compared to PyTorch baselines without running out-of-memory, significantly improving the scalability of modern protein folding models. We open source our code at https://github.com/Supercomputing-System-AI-Lab/MegaFold/.},
-  preview =      {MegaFold.png},
-  abbr =         {arXiv},
-}
-
 @article{wang2025topotein,
   title =        {Topotein: Topological Deep Learning for Protein Representation Learning},
   author =       {Wang, Zhiyu and Jamasb, Arian and Hajij, Mustafa and Morehead, Alex and Braithwaite, Luke and Li{\`o}, Pietro},
@@ -536,8 +522,22 @@
   note =         {Part of the 2026 invited issue on AI Methodologies in Structural Biology},
   selected =     false,
   google_scholar_id={blknAaTinKkC},
-  html =         {https://openreview.net/forum?id=60PQ9fQFew},
+  html =         {https://www.sciencedirect.com/science/article/pii/S0959440X26000291},
   abstract =     {Recent advances in artificial intelligence have introduced novel methods for high-accuracy prediction of protein tertiary structures, protein complex structures, and interactions between proteins and other biomolecules, such as small molecules and nucleic acids. Such advancements are accelerating biomedical research and the development of new protein design and bioengineering methods among many other important biotechnology applications. In this review, we outline the recent advances in protein-centric biomolecular structure and interaction prediction, highlight some major challenges in the field, and discuss potential directions to address them.},
   preview =      {BSPI_COSB.png},
   abbr =         {COSB},
+}
+
+@inproceedings{la2026megafold,
+  title =        {MegaFold: System-Level Optimizations for Accelerating Protein Structure Prediction Models},
+  author =       {La, Hoa and Gupta, Ahan and Morehead, Alex and Cheng, Jianlin and Zhang, Minjia},
+  booktitle =    {ISC High Performance},
+  year =         2026,
+  note =         {Accelerating biomolecular structure prediction with system-level optimizations},
+  selected =     false,
+  google_scholar_id={R3hNpaxXUhUC},
+  html =         {https://arxiv.org/abs/2506.20686},
+  abstract =     {Protein structure prediction models such as AlphaFold3 (AF3) push the frontier of biomolecular modeling by incorporating science-informed architectural changes to the transformer architecture. However, these advances come at a steep system cost, introducing: compute- and memory-intensive operators, 2D attention mechanisms, and retrieval-augmented data pipelines, which collectively hinder the scalability of AF3 training. In this work, we present MegaFold, a cross-platform system to accelerate AF3 training. MegaFold tackles key bottlenecks through ahead-of-time caching to eliminate GPU idle time from the retrieval-augmented data pipeline, Triton-based kernels for memory-efficient EvoAttention on heterogeneous devices, and deep fusion for common and critical small operators in AF3. Evaluation on both NVIDIA H200 and AMD MI250 GPUs shows that MegaFold reduces peak memory usage of AF3 training by up to 1.23 and improves per-iteration training time by up-to 1.73 and 1.62 respectively. More importantly, MegaFold enables training on 1.35 longer sequence lengths compared to PyTorch baselines without running out-of-memory, significantly improving the scalability of modern protein folding models. We open source our code at https://github.com/Supercomputing-System-AI-Lab/MegaFold/.},
+  preview =      {MegaFold.png},
+  abbr =         {ISC},
 }
