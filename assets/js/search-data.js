@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-folding-and-generating-atoms-one-bit-at-a-time",
+            },{id: "post-how-to-improve-0-001-daily",
+      
+        title: "How to improve 0.001% daily",
+      
+      description: "An annotated reading of the books I finished in March 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/how-to-improve-0-001-percent-daily/";
+        
+      },
+    },{id: "post-folding-and-generating-atoms-one-bit-at-a-time",
       
         title: 'Folding and generating atoms, one bit at a time <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -745,6 +756,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_power_of_now/";
+            },},{id: "books-behave",
+          title: 'Behave',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/behave/";
+            },},{id: "books-careless-people",
+          title: 'Careless People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/careless_people/";
+            },},{id: "books-source-code",
+          title: 'Source Code',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/source_code/";
+            },},{id: "books-wisdom-takes-work",
+          title: 'Wisdom Takes Work',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wisdom_takes_work/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
