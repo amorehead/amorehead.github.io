@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-how-to-improve-0-001-daily",
+            },{id: "post-on-the-path-to-scientific-pretraining",
+      
+        title: 'On the path to scientific pretraining <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "(Highly subjective) AI4Science highlights of March 2026",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/on-the-path-to-scientific-pretraining", "_blank");
+        
+      },
+    },{id: "post-how-to-improve-0-001-daily",
       
         title: "How to improve 0.001% daily",
       
