@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-on-the-path-to-scientific-pretraining",
+            },{id: "post-bridging-worlds",
+      
+        title: "Bridging worlds",
+      
+      description: "An annotated reading of the books I finished in April 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/bridging-worlds/";
+        
+      },
+    },{id: "post-on-the-path-to-scientific-pretraining",
       
         title: 'On the path to scientific pretraining <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -787,6 +798,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/wisdom_takes_work/";
+            },},{id: "books-between-two-kingdoms",
+          title: 'Between Two Kingdoms',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/between_two_kingdoms/";
+            },},{id: "books-debt",
+          title: 'Debt',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/debt/";
+            },},{id: "books-incognito",
+          title: 'Incognito',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/incognito/";
+            },},{id: "books-unreasonable-hospitality",
+          title: 'Unreasonable Hospitality',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/unreasonable_hospitality/";
+            },},{id: "books-war-and-peace",
+          title: 'War and Peace',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/war_and_peace/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
