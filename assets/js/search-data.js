@@ -834,6 +834,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/war_and_peace/";
+            },},{id: "books-heart-breath-mind",
+          title: 'Heart Breath Mind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/heart_breath_mind/";
+            },},{id: "books-last-gamer-standing",
+          title: 'Last Gamer Standing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/last_gamer_standing/";
+            },},{id: "books-parable-of-the-sower",
+          title: 'Parable of the Sower',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/parable_of_the_sower/";
+            },},{id: "books-parable-of-the-talents",
+          title: 'Parable of the Talents',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/parable_of_the_talents/";
+            },},{id: "books-the-art-of-living",
+          title: 'The Art of Living',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_art_of_living/";
+            },},{id: "books-the-untethered-soul",
+          title: 'The Untethered Soul',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_untethered_soul/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
