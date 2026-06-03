@@ -36,7 +36,7 @@ Where to begin? Octavia Butler was unbelievably prescient in writing [Parable of
 The [Parable of the Talents](https://en.wikipedia.org/wiki/Parable_of_the_Talents_(novel)) picks up right where Parable of the Sower leaves off, completing Lauren Olamina's story arc by illustrating how she spends the rest of her days building and rebuilding her spiritual community, Earthseed. Interwoven with this narrative are short journal entries written posthumously by Lauren's daughter, in which an outside and critical perspective on Earthseed is boldly shared. This book achieves a rare feat: threading the needle between science fiction, philosophy, geopolitics, and (now) historical fiction.
 
 <div class="l-body">
-  {% include figure.liquid path="assets/img/blog_post_images/06_2026/an-untethered-soul.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  {% include figure.liquid path="assets/img/blog_post_images/06_2026/the-untethered-soul.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 To be honest, I don't recall much that stood out in this book, perhaps because it overlaps heavily with many other self-help books that have been written over the last decade. Possibly my main takeaway from this book is that we would all do well to spend more time practicing mindfulness rather than un-mindfulness. And reading widely can be a good starting point for this.
