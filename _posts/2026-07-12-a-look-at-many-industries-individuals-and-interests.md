@@ -60,7 +60,7 @@ Like Shannon, Feynman was a curious character who cannot be easily encapsulated 
   {% include figure.liquid path="assets/img/blog_post_images/07_2026/the-bell-jar.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
-[The Bell Jar](https://en.wikipedia.org/wiki/The_Bell_Jar) is a sobering look at the author's (semi-autobiographical) descent into mental illness in their early 20s, told their various literary devices such as absurdism, psychodelic imagery, and metaphor. The book is firmly rooted in its chosen setting, 1950s America, a time in which mental health (for women, in particular) was often stigmatized and lacked adequate treatment resources. With television adaptations on the horizon, this story is seeing renewed public interest, though it may very well continue to have broad literary impacts on book format.
+[The Bell Jar](https://en.wikipedia.org/wiki/The_Bell_Jar) is a sobering look at the author's (semi-autobiographical) descent into mental illness in their early 20s, told their various literary devices such as absurdism, psychodelic imagery, and metaphor. The book is firmly rooted in its chosen setting, 1950s America, a time in which mental health (for women, in particular) was often stigmatized and lacked adequate treatment resources. With television adaptations on the horizon, this story is seeing renewed public interest, though it may very well continue to have broad literary impacts in book format.
 
 ## Trail of trauma
 
@@ -68,7 +68,7 @@ Like Shannon, Feynman was a curious character who cannot be easily encapsulated 
   {% include figure.liquid path="assets/img/blog_post_images/07_2026/nobodys-girl.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
-A tale not for the weary of heart, [Nobody's Girl](https://en.wikipedia.org/wiki/Nobody%27s_Girl_(memoir)) catalogues the journey of Virginia Roberts Giuffre through sex trafficing and, ultimately, through Jeffrey Epstein's inner circle of human exploitation. Embedded throughout the book are glimpses of Virginia's psychosocial processing of these events in realtime and how they impacted her life well into adulthood. Many prominent figures' names appear in the book, while others remain elusive. Currently, it is unclear what impact (if any) the latter (unnamed) figures had on Virginia's tragic passing not long after this book was published.
+A tale not for the weary of heart, [Nobody's Girl](https://en.wikipedia.org/wiki/Nobody%27s_Girl_(memoir)) catalogues the journey of Virginia Roberts Giuffre through sex trafficing and, ultimately, through Jeffrey Epstein's inner circle of human exploitation. Embedded throughout the book are glimpses of Virginia's psychosocial processing of these events in realtime and how they impacted her life well into adulthood. Many prominent figures' names appear in the book, while others remain elusive. Currently, it is unclear what impact (if any) the latter (unnamed) figures had on Virginia's tragic passing not long before this book was published.
 
 ## History meets fantasy, with the mechanics of magic
 
