@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-self-supervising-science",
+            },{id: "post-paving-paths-between-tasks",
+      
+        title: 'Paving paths between tasks <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "(Highly subjective) AI4Science highlights of June 2026",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/paving-paths-between-tasks", "_blank");
+        
+      },
+    },{id: "post-a-look-at-many-industries-individuals-and-interests",
+      
+        title: "A look at many industries, individuals, and interests",
+      
+      description: "An annotated reading of the books I finished in June 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/a-look-at-many-industries-individuals-and-interests/";
+        
+      },
+    },{id: "post-self-supervising-science",
       
         title: 'Self-supervising science <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -886,6 +908,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_untethered_soul/";
+            },},{id: "books-a-mind-at-play",
+          title: 'A Mind at Play',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a_mind_at_play/";
+            },},{id: "books-beyond-shame",
+          title: 'Beyond Shame',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/beyond_shame/";
+            },},{id: "books-blood-sweat-and-pixels",
+          title: 'Blood, Sweat, and Pixels',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/blood_sweat_and_pixels/";
+            },},{id: "books-nobody-39-s-girl",
+          title: 'Nobody&amp;#39;s Girl',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nobodys_girl/";
+            },},{id: "books-surely-you-39-re-joking-mr-feynman",
+          title: 'Surely You&amp;#39;re Joking, Mr. Feynman!',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/surely_youre_joking_mr_feynman/";
+            },},{id: "books-the-bell-jar",
+          title: 'The Bell Jar',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_bell_jar/";
+            },},{id: "books-to-gaze-upon-wicked-gods",
+          title: 'To Gaze Upon Wicked Gods',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/to_gaze_upon_wicked_gods/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
