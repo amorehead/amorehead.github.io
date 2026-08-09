@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-paving-paths-between-tasks",
+            },{id: "post-a-bittersweet-lesson-in-the-learning",
+      
+        title: 'A bittersweet lesson in the learning <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "(Highly subjective) AI4Science highlights of July 2026",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/a-bittersweet-lesson-in-the-learning", "_blank");
+        
+      },
+    },{id: "post-excavating-ground-state-human-experience",
+      
+        title: "Excavating ground-state human experience",
+      
+      description: "An annotated reading of the books I finished in July 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/na/";
+        
+      },
+    },{id: "post-paving-paths-between-tasks",
       
         title: 'Paving paths between tasks <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -943,6 +965,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/to_gaze_upon_wicked_gods/";
+            },},{id: "books-extremely-online",
+          title: 'Extremely Online',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/extremely_online/";
+            },},{id: "books-how-emotions-are-made",
+          title: 'How Emotions are Made',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how_emotions_are_made/";
+            },},{id: "books-the-remains-of-the-day",
+          title: 'The Remains of the Day',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_remains_of_the_day/";
+            },},{id: "books-us",
+          title: 'Us',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/us/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
