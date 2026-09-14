@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-bittersweet-lesson-in-the-learning",
+            },{id: "post-unraveling-intelligence-across-systems",
+      
+        title: 'Unraveling intelligence across systems <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "(Highly subjective) AI4Science highlights of August 2026",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/unraveling-intelligence-across-systems", "_blank");
+        
+      },
+    },{id: "post-a-bittersweet-lesson-in-the-learning",
       
         title: 'A bittersweet lesson in the learning <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -70,7 +81,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2026/na/";
+          window.location.href = "/blog/2026/excavating-ground-state-human-experience/";
         
       },
     },{id: "post-paving-paths-between-tasks",
