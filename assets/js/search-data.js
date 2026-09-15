@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-unraveling-intelligence-across-systems",
+            },{id: "post-navigating-experiences-and-states",
+      
+        title: "Navigating experiences and states",
+      
+      description: "An annotated reading of the books I finished in August 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/navigating-experiences-and-states/";
+        
+      },
+    },{id: "post-unraveling-intelligence-across-systems",
       
         title: 'Unraveling intelligence across systems <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -996,6 +1007,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/us/";
+            },},{id: "books-cryptonomicon",
+          title: 'Cryptonomicon',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cryptonomicon/";
+            },},{id: "books-sisters-in-science",
+          title: 'Sisters in Science',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sisters_in_science/";
+            },},{id: "books-swann-39-s-way",
+          title: 'Swann&amp;#39;s Way',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/swanns_way/";
+            },},{id: "books-the-infinity-machine",
+          title: 'The Infinity Machine',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_infinity_machine/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
