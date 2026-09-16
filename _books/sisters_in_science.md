@@ -2,7 +2,7 @@
 layout: book-review
 title: "Sisters in Science"
 author: Olivia Campbell
-cover: assets/img/blog_post_images/09_2026/olivia-campbell.jpg
+cover: assets/img/blog_post_images/09_2026/sisters-in-science.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: Biography History Science Gender Geopolitics

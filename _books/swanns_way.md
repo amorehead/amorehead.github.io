@@ -2,7 +2,7 @@
 layout: book-review
 title: "Swann's Way"
 author: Marcel Proust
-cover: assets/img/blog_post_images/09_2026/swanns-way.jpg
+cover: assets/img/blog_post_images/09_2026/swanns-way.png
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: Mindmeld Experience Autobiography Historical-Fiction Surrealism
