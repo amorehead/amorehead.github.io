@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-navigating-experiences-and-states",
+            },{id: "post-reading-into-historical-figures",
+      
+        title: "Reading into historical figures",
+      
+      description: "An annotated reading of the books I finished in September 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/reading-into-historical-figures/";
+        
+      },
+    },{id: "post-navigating-experiences-and-states",
       
         title: "Navigating experiences and states",
       
@@ -1027,6 +1038,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_infinity_machine/";
+            },},{id: "books-1491",
+          title: '1491',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1491/";
+            },},{id: "books-four-thousand-weeks",
+          title: 'Four Thousand Weeks',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/four_thousand_weeks/";
+            },},{id: "books-perfectly-reasonable-deviations-from-the-beaten-track",
+          title: 'Perfectly Reasonable Deviations from the Beaten Track',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/perfectly_reasonable_deviations_from_the_beaten_track/";
+            },},{id: "books-the-autobiography-of-benjamin-franklin",
+          title: 'The Autobiography of Benjamin Franklin',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_autobiography_of_benjamin_franklin/";
+            },},{id: "books-the-nvidia-way",
+          title: 'The Nvidia Way',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_nvidia_way/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
