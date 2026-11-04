@@ -1,7 +1,7 @@
 ---
 layout: book-review
-title: "The Singularity is Nearer"
-author: Ray Kurzweil
+title: "Speaker for the Dead"
+author: Orson Scott Card
 cover: assets/img/blog_post_images/11_2026/speaker_for_the_dead.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
