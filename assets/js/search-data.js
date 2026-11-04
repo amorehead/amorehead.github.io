@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-climbing-science-s-many-scales",
+            },{id: "post-reasoning-through-natural-language-and-latents",
+      
+        title: 'Reasoning through natural language and latents <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "(Highly subjective) AI4Science highlights of October 2026",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://amorehead.substack.com/p/reasoning-through-natural-language", "_blank");
+        
+      },
+    },{id: "post-roughly-we-go-into-that-good-night",
+      
+        title: "Roughly we go into that good night",
+      
+      description: "An annotated reading of the books I finished in October 2026.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/roughly-we-go-into-that-good-night/";
+        
+      },
+    },{id: "post-climbing-science-s-many-scales",
       
         title: 'Climbing science’s many scales <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -1074,6 +1096,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_nvidia_way/";
+            },},{id: "books-my-inventions-the-autobiography-of-nikola-tesla",
+          title: 'My Inventions: The Autobiography of Nikola Tesla',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/my_inventions_the_autobiography_of_nikola_tesla/";
+            },},{id: "books-the-singularity-is-nearer",
+          title: 'The Singularity is Nearer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/speaker_for_the_dead/";
+            },},{id: "books-subliminal",
+          title: 'Subliminal',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/subliminal/";
+            },},{id: "books-the-elements-of-marie-curie",
+          title: 'The Elements of Marie Curie',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_elements_of_marie_curie/";
+            },},{id: "books-the-singularity-is-nearer",
+          title: 'The Singularity is Nearer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_singularity_is_nearer/";
             },},{id: "news-one-paper-accepted-by-iclr-sparkles",
           title: 'One paper accepted by ICLR :sparkles:',
           description: "",
