@@ -1101,8 +1101,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/my_inventions_the_autobiography_of_nikola_tesla/";
-            },},{id: "books-the-singularity-is-nearer",
-          title: 'The Singularity is Nearer',
+            },},{id: "books-speaker-for-the-dead",
+          title: 'Speaker for the Dead',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/speaker_for_the_dead/";
